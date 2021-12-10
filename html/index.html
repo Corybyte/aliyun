@@ -13,19 +13,62 @@
 				<img class="top-nav-img1" src="../image/aliyun-logo.png" />
 				<span class="top-nav-span1">最新活动</span>
 				<span class="top-nav-span2">产品</span>
+					<img class="top-nav-span2-img" src="../image/triangle.png" />
+			
 				<span class="top-nav-span3">解决方案</span>
+					<img class="top-nav-span3-img" src="../image/triangle.png" />
+					
 				<span class="top-nav-span4">云市场</span>
+					<img class="top-nav-span4-img" src="../image/triangle.png" />
+					
 				<span class="top-nav-span5">合作伙伴</span>
+					<img class="top-nav-span5-img" src="../image/triangle.png" />
+					
 				<span class="top-nav-span6">支持与服务</span>
+					<img class="top-nav-span6-img" src="../image/triangle.png" />
+					
 				<span class="top-nav-span7">开发者</span>
+					
 				<span class="top-nav-span8">了解阿里云</span>
 				
+				<span id="top-nav-search-input"  class="top-nav-search-input" >
 					
+					
+					
+				</span>
+				
+				<span class="top-nav-span9">中国站</span>
+				<span class="top-nav-span10">文档</span>
+				<span class="top-nav-span11">购物车</span>
+				<span class="top-nav-span12">ICP备案</span>
+					
+									
 				
 				
 			</nav>
 			
 		</div>
 		
+		<script>
+		
+
+			var search_value = new Array();
+			search_value[0]="OSS";
+			search_value[1]="域名";
+			search_value[2]="阿里云独享带宽";
+			search_value[3]="云服务器ECS";
+			search_value[4]="物联网无线连接服务";
+			search_value[5]="云数据库Mysql版";
+			search_value[6]="轻量应用服务器";
+			
+			var search_value_random=Math.floor(Math.random()*search_value.length);
+			document.getElementById("top-nav-search-input").innerHTML="<span class='top-nav-search-text'>"+search_value[search_value_random]
+		
+			
+			
+		
+			
+		
+		</script>
 	</body>
 </html>

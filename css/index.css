@@ -1,4 +1,12 @@
 *{margin:0;padding: 0;}
+
+nav{
+	height: 61px;
+	border: 1px solid #e4e3e2;
+	border-right-style:none;
+	border-top-style:none;
+	
+}
 span{
 	font-size: 14px;
 }
@@ -6,10 +14,11 @@ span{
 .top-nav{
 	padding-top: 1px;
 	overflow:hidden;
+	margin:  auto;
 }
 
 .top-nav-box{
-	
+	margin: auto;
 }
 
 .top-nav-img1 { /* aliyun-logo class样式 */
@@ -44,6 +53,20 @@ span{
 }
 
 
+.top-nav-span2-img{
+	position: absolute;
+	margin-left: 134px;
+	margin-top: 26px;
+	height: 15px;
+	width: 13px;
+}
+
+.top-nav-span2-img:hover{
+	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+	
+}
+
+
 .top-nav-span3{
 	margin-left: 157px;
 	margin-top: 22px;
@@ -53,6 +76,20 @@ span{
 .top-nav-span3:hover{
 	color: #ff6a00;
 	cursor:pointer;
+}
+
+
+.top-nav-span3-img{
+	position: absolute;
+	margin-left: 215px;
+	margin-top: 26px;
+	height: 15px;
+	width: 13px;
+}
+
+.top-nav-span3-img:hover{
+	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+	
 }
 
 
@@ -68,6 +105,22 @@ span{
 }
 
 
+.top-nav-span4-img{
+	position: absolute;
+	margin-left: 283px;
+	margin-top: 26px;
+	height: 15px;
+	width: 13px;
+}
+
+.top-nav-span4-img:hover{
+	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+	
+}
+
+
+
+
 .top-nav-span5{
 	margin-left: 305px;
 	margin-top: 22px;
@@ -80,30 +133,65 @@ span{
 }
 
 
+
+.top-nav-span5-img{
+	position: absolute;
+	margin-left: 363px;
+	margin-top: 26px;
+	height: 15px;
+	width: 13px;
+}
+
+.top-nav-span5-img:hover{
+	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+
+}
+
+
+
 .top-nav-span6{
 	margin-left: 386px;
 	margin-top: 22px;
 	position: absolute;
 }
 
-.top-nav-span5:hover{
+.top-nav-span:hover{
 	color: #ff6a00;
 	cursor:pointer;
 }
 
+
+.top-nav-span6-img{
+	position: absolute;
+	margin-left: 458px;
+	margin-top: 26px;
+	height: 15px;
+	width: 13px;
+}
+
+.top-nav-span6-img:hover{
+	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+
+}
+
+
 .top-nav-span7{
-	margin-left: 500px;
+	margin-left: 481px;
 	margin-top: 22px;
 	position: absolute;
 }
 
-.top-nav-span7:hover{
-	color: #ff6a00;
-	cursor:pointer;
+
+
+.top-nav-span7-img:hover{
+	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+
 }
 
+
+
 .top-nav-span8{
-	margin-left: 550px;
+	margin-left: 548px;
 	margin-top: 22px;
 	position: absolute;
 }
@@ -112,6 +200,72 @@ span{
 	color: #ff6a00;
 	cursor:pointer;
 }
+
+.top-nav-search-input{
+	position: absolute;
+	margin-left: 812px;
+	border: 1px solid #e4e3e2;
+	width: 152px;
+	height: 61px;
+}
+
+
+.top-nav-search-text{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.top-nav-span9{
+	margin-left: 990px;
+	margin-top: 21px;
+	position: absolute;
+}
+
+.top-nav-span9:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span10{
+	margin-left: 1060px;
+	margin-top: 21px;
+	position: absolute;
+	
+}
+
+.top-nav-span10:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span11{
+	margin-left: 1120px;
+	margin-top: 21px;
+	position: absolute;
+	
+}
+
+.top-nav-span11:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span12{
+	margin-left: 1190px;
+	margin-top: 21px;
+	position: absolute;
+	
+}
+
+.top-nav-span11:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+
 
 
 
