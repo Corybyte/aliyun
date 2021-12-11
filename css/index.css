@@ -1,27 +1,36 @@
 *{margin:0;padding: 0;}
+body{
+	
+
+}
+
 
 nav{
 	height: 61px;
-	border: 1px solid #e4e3e2;
+	border:1px solid black;
 	border-right-style:none;
 	border-top-style:none;
 	
 }
 span{
 	font-size: 14px;
+
 }
 
+
 .top-nav{
+	
 	padding-top: 1px;
 	overflow:hidden;
-	margin:  auto;
 }
 
 .top-nav-box{
-	margin: auto;
+	position: fixed;
+	width: 100%;
 }
 
 .top-nav-img1 { /* aliyun-logo class样式 */
+	float: left;
 	width: 100px;
 	height: 24px;
 	vertical-align: baseline;
@@ -31,9 +40,9 @@ span{
 
 
 .top-nav-span1{/* 导航栏 最新活动 class样式*/
-	margin-left: 24px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
 .top-nav-span1:hover{
@@ -42,9 +51,9 @@ span{
 }
 
 .top-nav-span2{
-	margin-left: 104px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
 .top-nav-span2:hover{
@@ -53,24 +62,248 @@ span{
 }
 
 
-.top-nav-span2-img{
-	position: absolute;
-	margin-left: 134px;
-	margin-top: 26px;
-	height: 15px;
-	width: 13px;
+
+.top-nav-span2-content{
+	display: block;
+	width: 100%;
+	height: 0px;
 }
 
-.top-nav-span2-img:hover{
-	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+
+
+
+.top-nav-span2-content-left{
+	position: fixed;
+	margin-top: 0px;
+	border:1px solid red;
+	float: left;
+	width: 25%;
+	height: 0px;
+	background-color: #F5F5F6;
+	transition: height 0.4s;
+	-webkit-transition: height 0.4s; 
+}
+
+.top-nav-span2-content-left a{ 
+	display: none;
+}
+
+
+
+
+
+.top-nav-span2-content-right{
+	position: fixed;
+	margin-left: 25%;
+	border: 1px solid red;
+	float: right;
+	width: 75%;
+	height: 0px;
+	background-color: white;
+	transition: height 0.4s;
+	-webkit-transition: height 0.4s; 
+}
+
+.top-nav-span2-content-left-span1{
+	position: absolute;
+	margin-left: 300px;
+	top: 50px;
+	float: right;
+	font-weight: bold;
+}
+
+.top-nav-span2-content-left-span2{
+	position: absolute;
+	margin-left: 300px;
+	top: 100px;
+	float: right;
+}
+
+.top-nav-span2-content-left-span3{
+	position: absolute;
+	margin-left: 300px;
+	top:140px;
+	float: right;
+}
+
+
+.top-nav-span2-content-left-span4{
+	position: absolute;
+	margin-left: 300px;
+	top: 180px;
+	float: right;
+}
+
+.top-nav-span2-content-left-span5{
+	position: absolute;
+	margin-left: 300px;
+	top: 220px;
+	float: right;
+}
+
+
+.top-nav-span2-content-left-span6{
+	position: absolute;
+	margin-left: 300px;
+	top: 260px;
+	float: right;
+}
+
+
+.top-nav-span2-content-left-span7{
+	position: absolute;
+	margin-left: 300px;
+	top: 300px;
+	float: right;
+}
+
+.top-nav-span2-content-left-span8{
+	position: absolute;
+	margin-left: 300px;
+	top: 340px;
+	float: right;
+}
+
+.top-nav-span2-content-left-span9{
+	position: absolute;
+	margin-left: 300px;
+	top: 380px;
+	float: right;
+}
+
+
+.top-nav-span2-content-left-span10{
+	position: absolute;
+	margin-left: 300px;
+	top: 420px;
+	float: right;
+}
+
+
+.top-nav-span2-content-left-span11{
+	position: absolute;
+	margin-left: 300px;
+	top: 460px;
+	float: right;
+}
+
+
+.top-nav-span2-content-left-span12{
+	position: absolute;
+	margin-left: 300px;
+	top: 500px;
+	float: right;
+}
+
+.top-nav-span2-content-left-span13{
+	position: absolute;
+	margin-left: 300px;
+	top: 540px;
+	float: right;
+}
+
+
+
+
+.top-nav-span2-content-left-span1:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content-left-span2:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content-left-span3:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span2-content-left-span4:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content-left-span5:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span2-content-left-span6:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span2-content-left-span7:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content-left-span8:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content-left-span9:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span2-content-left-span10:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span2-content-left-span11:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span2-content-left-span12:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content-left-span13:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+
+
+.top-nav-span2-content-left-span1:hover{
+	color: #ff6a00;
+	cursor:pointer;
 	
 }
 
 
+
+
+
+.arrow{
+	float: right;
+	margin-top: 50px;
+	width: 7px;
+	height: 7px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+}
+
+
 .top-nav-span3{
-	margin-left: 157px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
 .top-nav-span3:hover{
@@ -79,24 +312,10 @@ span{
 }
 
 
-.top-nav-span3-img{
-	position: absolute;
-	margin-left: 215px;
-	margin-top: 26px;
-	height: 15px;
-	width: 13px;
-}
-
-.top-nav-span3-img:hover{
-	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
-	
-}
-
-
 .top-nav-span4{
-	margin-left: 238px;
+	float:left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
 .top-nav-span4:hover{
@@ -105,26 +324,13 @@ span{
 }
 
 
-.top-nav-span4-img{
-	position: absolute;
-	margin-left: 283px;
-	margin-top: 26px;
-	height: 15px;
-	width: 13px;
-}
-
-.top-nav-span4-img:hover{
-	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
-	
-}
-
 
 
 
 .top-nav-span5{
-	margin-left: 305px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
 .top-nav-span5:hover{
@@ -134,66 +340,35 @@ span{
 
 
 
-.top-nav-span5-img{
-	position: absolute;
-	margin-left: 363px;
-	margin-top: 26px;
-	height: 15px;
-	width: 13px;
-}
-
-.top-nav-span5-img:hover{
-	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
-
-}
-
 
 
 .top-nav-span6{
-	margin-left: 386px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
-.top-nav-span:hover{
+.top-nav-span6:hover{
 	color: #ff6a00;
 	cursor:pointer;
 }
 
 
-.top-nav-span6-img{
-	position: absolute;
-	margin-left: 458px;
-	margin-top: 26px;
-	height: 15px;
-	width: 13px;
-}
-
-.top-nav-span6-img:hover{
-	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
-
-}
-
-
 .top-nav-span7{
-	margin-left: 481px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
-
-
-.top-nav-span7-img:hover{
-	transform: rotate(180deg); /* Equal to rotateZ(45deg) */
-
+.top-nav-span7:hover{
+	color: #ff6a00;
+	cursor:pointer;
 }
-
-
 
 .top-nav-span8{
-	margin-left: 548px;
+	float: left;
+	margin-left: 30px;
 	margin-top: 22px;
-	position: absolute;
 }
 
 .top-nav-span8:hover{
@@ -202,10 +377,10 @@ span{
 }
 
 .top-nav-search-input{
-	position: absolute;
-	margin-left: 812px;
+	margin-right: 30px;
+	float: right;
 	border: 1px solid #e4e3e2;
-	width: 152px;
+	width: 280px;
 	height: 61px;
 }
 
@@ -217,9 +392,9 @@ span{
 }
 
 .top-nav-span9{
-	margin-left: 990px;
+	float: right;
+	margin-right: 20px;
 	margin-top: 21px;
-	position: absolute;
 }
 
 .top-nav-span9:hover{
@@ -229,10 +404,9 @@ span{
 
 
 .top-nav-span10{
-	margin-left: 1060px;
+	margin-right: 20px;
+	float: right;
 	margin-top: 21px;
-	position: absolute;
-	
 }
 
 .top-nav-span10:hover{
@@ -241,9 +415,10 @@ span{
 }
 
 .top-nav-span11{
-	margin-left: 1120px;
+	float: right;
+	margin-right: 20px;
 	margin-top: 21px;
-	position: absolute;
+	
 	
 }
 
@@ -253,15 +428,66 @@ span{
 }
 
 .top-nav-span12{
-	margin-left: 1190px;
+	float: right;
+	margin-right: 20px;
 	margin-top: 21px;
-	position: absolute;
 	
 }
 
-.top-nav-span11:hover{
+.top-nav-span12:hover{
 	color: #ff6a00;
 	cursor:pointer;
+}
+
+
+.top-nav-span13{
+	float: right;
+	margin-top: 21px;
+	margin-right: 20px;
+	
+}
+
+.top-nav-span13:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span14{
+	float: right;
+	margin-top: 21px;
+	margin-right: 20px;
+	
+}
+
+.top-nav-span14:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-button1{
+	float: right;
+	background-color: #FF6A00;
+	border: #FF6A00;
+	height: 61px;
+	width: 122px;
+	color: white;
+}
+
+.top-nav-button1:hover{
+	background-color: #FF791A;
+	cursor:pointer;
+}
+
+.body-content1{
+	background-color: #E6E6E6;
+}
+
+
+
+.body-content1-img1{
+	margin-left: 350px;
+	height: 450px;
 }
 
 

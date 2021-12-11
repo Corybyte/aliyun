@@ -5,70 +5,134 @@
 		<title></title>
 	</head>
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
-
 	<body>
-		
 		<div class="top-nav-box">
 			<nav class="top-nav">
 				<img class="top-nav-img1" src="../image/aliyun-logo.png" />
 				<span class="top-nav-span1">最新活动</span>
-				<span class="top-nav-span2">产品</span>
-					<img class="top-nav-span2-img" src="../image/triangle.png" />
-			
+				<span id="top-nav-span2" class="top-nav-span2">产品</span>
 				<span class="top-nav-span3">解决方案</span>
-					<img class="top-nav-span3-img" src="../image/triangle.png" />
-					
 				<span class="top-nav-span4">云市场</span>
-					<img class="top-nav-span4-img" src="../image/triangle.png" />
-					
 				<span class="top-nav-span5">合作伙伴</span>
-					<img class="top-nav-span5-img" src="../image/triangle.png" />
-					
 				<span class="top-nav-span6">支持与服务</span>
-					<img class="top-nav-span6-img" src="../image/triangle.png" />
-					
 				<span class="top-nav-span7">开发者</span>
-					
 				<span class="top-nav-span8">了解阿里云</span>
-				
-				<span id="top-nav-search-input"  class="top-nav-search-input" >
-					
-					
-					
-				</span>
-				
-				<span class="top-nav-span9">中国站</span>
-				<span class="top-nav-span10">文档</span>
-				<span class="top-nav-span11">购物车</span>
+				<button class="top-nav-button1">立即注册</button>
+				<span class="top-nav-span14">登录</span>
+				<span class="top-nav-span13">控制台</span>
 				<span class="top-nav-span12">ICP备案</span>
-					
-									
-				
-				
+				<span class="top-nav-span11">购物车</span>
+				<span class="top-nav-span10">文档</span>
+				<span class="top-nav-span9">中国站</span>
+				<span id="top-nav-search-input"  class="top-nav-search-input" ></span>
 			</nav>
 			
+			<div class="top-nav-content">
+					<div id="top-nav-span2-content" class="top-nav-span2-content">
+						<div id="top-nav-span2-content-left" class="top-nav-span2-content-left">
+							<a id="top-nav-span2-content-left-span1" class="top-nav-span2-content-left-span1">查看全部产品</a>
+							<a id="top-nav-span2-content-left-span2" class="top-nav-span2-content-left-span2">弹性计算</a>
+							<a id="top-nav-span2-content-left-span3" class="top-nav-span2-content-left-span3">存储</a>
+							<a id="top-nav-span2-content-left-span4" class="top-nav-span2-content-left-span4">数据库</a>
+							<a id="top-nav-span2-content-left-span5" class="top-nav-span2-content-left-span5">安全</a>
+							<a id="top-nav-span2-content-left-span6" class="top-nav-span2-content-left-span6">大数据</a>
+							<a id="top-nav-span2-content-left-span7" class="top-nav-span2-content-left-span7">网络与CDN</a>
+							<a id="top-nav-span2-content-left-span8" class="top-nav-span2-content-left-span8">视频服务</a>
+							<a id="top-nav-span2-content-left-span9" class="top-nav-span2-content-left-span9">容器与中间件</a>
+							<a id="top-nav-span2-content-left-span10" class="top-nav-span2-content-left-span10">开发与运维</a>
+							<a id="top-nav-span2-content-left-span11" class="top-nav-span2-content-left-span11">物联网IOT</a>
+							<a id="top-nav-span2-content-left-span12" class="top-nav-span2-content-left-span12">混合云</a>	
+							<a id="top-nav-span2-content-left-span13" class="top-nav-span2-content-left-span13">企业应用与云通信</a>
+							
+							
+							
+						</div>
+						<div id="top-nav-span2-content-right" class="top-nav-span2-content-right"></div>
+					</div>
+			</div>
 		</div>
 		
-		<script>
 		
-
-			var search_value = new Array();
-			search_value[0]="OSS";
-			search_value[1]="域名";
-			search_value[2]="阿里云独享带宽";
-			search_value[3]="云服务器ECS";
-			search_value[4]="物联网无线连接服务";
-			search_value[5]="云数据库Mysql版";
-			search_value[6]="轻量应用服务器";
-			
-			var search_value_random=Math.floor(Math.random()*search_value.length);
-			document.getElementById("top-nav-search-input").innerHTML="<span class='top-nav-search-text'>"+search_value[search_value_random]
 		
-			
-			
-		
-			
-		
-		</script>
 	</body>
+	
+	<script>
+	
+		//鼠标移入产品 下拉菜单
+		document.getElementById("top-nav-span2").onmouseover =function(){
+			document.getElementById("top-nav-span2-content").style.height="600px";
+			document.getElementById("top-nav-span2-content-left").style.height="600px";
+			document.getElementById("top-nav-span2-content-right").style.height="600px";
+			document.getElementById("top-nav-span2-content-left-span1").style.display="inline";
+			document.getElementById("top-nav-span2-content-left-span1").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span2").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span3").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span4").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span5").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span6").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span7").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span8").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span9").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span10").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span11").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span12").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span13").style.display="block";
+		}
+		
+		//鼠标移入产品 下拉菜单 内容
+		document.getElementById("top-nav-span2-content").onmouseover=function(){
+			document.getElementById("top-nav-span2-content").style.height="600px";
+			document.getElementById("top-nav-span2-content-left").style.height="600px";
+			document.getElementById("top-nav-span2-content-right").style.height="600px";
+			document.getElementById("top-nav-span2-content-left-span1").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span2").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span3").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span4").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span5").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span6").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span7").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span8").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span9").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span10").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span11").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span12").style.display="block";
+			document.getElementById("top-nav-span2-content-left-span13").style.display="block";
+			
+			
+			
+		}
+		
+		//鼠标 移出产品  下拉菜单消失
+		document.getElementById("top-nav-span2-content").onmouseout=function(){
+			document.getElementById("top-nav-span2-content").style.height="0px";
+			document.getElementById("top-nav-span2-content-left").style.height="0px";
+			document.getElementById("top-nav-span2-content-right").style.height="0px";
+			document.getElementById("top-nav-span2-content-left-span1").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span2").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span3").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span4").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span5").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span6").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span7").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span8").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span9").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span10").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span11").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span12").style.display="none";
+			document.getElementById("top-nav-span2-content-left-span13").style.display="none";
+		}
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+	</script>
+	
+	
 </html>
