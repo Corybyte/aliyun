@@ -1,7 +1,9 @@
 *{margin:0;padding: 0;}
-body{
+hr{
 	
-
+	color: #000000;
+	position: absolute;
+	top: 20px;
 }
 
 
@@ -488,6 +490,18 @@ span{
 .body-content1-img1{
 	margin-left: 350px;
 	height: 450px;
+}
+
+.search-logo{
+	position: absolute;
+	display: none;
+	margin-top: 15px;
+	height: 40px;
+}
+
+.search-logo-hr{
+	color: yellow;
+	width: 200px;
 }
 
 
