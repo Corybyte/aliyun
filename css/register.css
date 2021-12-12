@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Webpage{
+	height: 932px;
+}
+.Navigation_bar{
+	height: 60px;
+	border-bottom: 1px solid #D7D8D9;
+	background-color: #F5F5F6;
+}
+.Navigation_bar a{
+	text-decoration:none;
+}
+.logo1{
+	margin: 15px 20px;
+}
+.logo2{
+	width: 105px;
+	position: relative;
+	right: 125px;
+	bottom: 14px;
+}
+.left_Notes{
+	display: initial;
+	float: right;
+	position:absolute;
+	right: 72px;
+	top: 18px
+}
+.left_Notes span{	
+	font-size: 14px;
+	color: #373D41;
+}
+.arrow{	
+	width: 8px;
+	height: 8px;
+	border-top: 2px solid #373D47;
+	border-right: 2px solid #373D47;
+	transform: rotate(135deg);
+	position: absolute;
+	bottom: 5px;
+	right: 16px;
+ }
+.arrow:hover{
+	transform: rotate(315deg); 
+ }
+.lnternational{
+	width: 132px;
+	height: 35px;
+	background-color: #F5F5F6;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+	text-indent: 4px;
+	position: absolute;
+	top: 42px;
+	left: -12px;
+	padding: 6px;
+	box-sizing: border-box;
+}
+.Home_page{
+	font-size: 14px;
+	color: #373D41;
+	position: relative;
+	left: 50px;
+}
+.Home_page{	
+	text-decoration: none;
+}
+.Home_page:hover{
+	color: #00C1DE;
+}
+.Middle{
+	height: 530px;
+	background-color: #F5F5F6;
+	padding: 80px 0px;
+}
+.Middle_white{
+	width: 1100px;
+	height: 505px;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+.Title{
+	padding: 10px 10px;
+}
+.register{
+	padding-top: 30px;
+	font-size: 30px;
+	color: #373D41;
+	letter-spacing: 1px;
+	line-height: 36px;
+	text-align: center;
+}
+.Account_number{
+	position: relative;
+	bottom: 32px;
+	left: 805px;
+	font-size: 12px;
+	color: #73777A;
+	letter-spacing: 0.4px;
+	line-height: 30px;
+	text-align: left;
+}
+.Sign_in{
+	position: relative;
+	bottom: 34px;
+	left: 815px;
+	font-size: 12px;
+	color: #00C1DE;
+	letter-spacing: 0.4px;
+	line-height: 30px;
+	text-align: left;
+}
+.Sign_in{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: underline;
+}
+.Form{
+	width: 1000px;
+	background: #FFFFFF;
+	margin: 30px auto;
+	text-align: center;
+}
+.form input{
+	text-indent: 15px;
+	font-size: 10px;
+	color: #999999;	
+}
+.form form input:nth-child(1){
+	width: 310px;
+	height: 36px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.form form input:nth-child(3){
+	width: 310px;
+	height: 36px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.form form input:nth-child(5){
+	width: 310px;
+	height: 36px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.eighty-six{
+	width: 54px;
+	height: 36px;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	left: 344px;
+}
+.eighty-six span{
+	position: absolute;
+	right: 12px;
+	top: 6px;
+}
+.number{
+	width: 255px;
+	height: 36px;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	bottom: 38px;
+	left: 28px;
+}
+.Registration{
+	width: 313px;
+	height: 32px;
+	background-color: #00B7D3;
+	position: relative;
+	left: 344px;
+	bottom: 12px;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+.Registration a{
+	color: #F5F5F6;
+	text-decoration: none;
+}
+.Statement{
+	font-size: 10px;
+}
+.Check_box{
+	width: 16px;
+	height: 16px;
+	margin: 10px 7px;
+}
+.zhushi{
+	color: #00B7D3;
+}
+.tiaokuan{
+	display: inline;
+	position: relative;
+	bottom: 4px;
+}
+.Bottom{
+	height: 265px;
+	background-color: #373D41;
+	position: relative;
+	bottom: 50px;
+}
+.Bottom_business{
+	position: relative;
+	top: 30px;
+}
+.Line{
+	width: 1220px;
+	height:1px;
+	margin:0 auto;
+	background-color: #CFD0D1;
+	border: 1px none #CFD0D1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
