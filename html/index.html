@@ -52,8 +52,7 @@
 							<div class="top-nav-span2-content-right-span2-content">
 								<div class="span2-content-img1">
 									<img id="span2-content-search-logo" class="search-logo" src="../image/search-loho.png" />
-									<input id="search-logo" type="search" style="position: absolute; margin-top: 28px;left: 35px; color: #D2D2D2;background:none;outline:none; border:none;" placeholder="搜索云产品">
-									<span class="search-logo-hr"></span>
+									<input id="search-logo" type="text" style="position: absolute; margin-top: 24px;left: 38px; color: #D2D2D2;background:none;outline:none; font-size: 18px;border: none;display: none;" placeholder="搜索云产品">
 								</div>
 							</div>
 						</div>
@@ -61,11 +60,11 @@
 			</div>
 		</div>
 		
-		<div class="body-content1">
-			<img class="body-content1-img1" src="../image/body-content1-img1.jpg" />
-			
-		</div>
-		
+			<div class="body-content1">
+				<img style=";" class="body-content1-img1" src="../image/body-content1-img1.jpg.jpg" />
+				
+			</div>
+	
 		
 		
 		
@@ -73,8 +72,10 @@
 	
 	<script>
 	
+		
 		//鼠标移入产品 下拉菜单
-		document.getElementById("top-nav-span2").onmouseover =function(){
+	document.getElementById("top-nav-span2").onmouseover =function(){
+		
 			document.getElementById("top-nav-span2-content").style.height="600px";
 			document.getElementById("top-nav-span2-content-left").style.height="600px";
 			document.getElementById("top-nav-span2-content-right").style.height="600px";
@@ -94,11 +95,10 @@
 			document.getElementById("top-nav-span2-content-left-span13").style.display="block";
 			document.getElementById("search-logo").style.display="block";
 			document.getElementById("span2-content-search-logo").style.display="block";
-			
-			
+			document.getElementById("search-logo").style.display="block";
 		}
 		
-		//鼠标移入产品 下拉菜单 内容
+		//鼠标移入产品 下拉菜单 内容			
 		document.getElementById("top-nav-span2-content").onmouseover=function(){
 			document.getElementById("top-nav-span2-content").style.height="600px";
 			document.getElementById("top-nav-span2-content-left").style.height="600px";
@@ -118,11 +118,9 @@
 			document.getElementById("top-nav-span2-content-left-span13").style.display="block";
 			document.getElementById("search-logo").style.display="block";
 			document.getElementById("span2-content-search-logo").style.display="block";
-			
-			
-			
+			document.getElementById("search-logo").style.display="block";
 		}
-		
+	
 		//鼠标 移出产品  下拉菜单消失
 		document.getElementById("top-nav-span2-content").onmouseout=function(){
 			document.getElementById("top-nav-span2-content").style.height="0px";
@@ -143,6 +141,7 @@
 			document.getElementById("top-nav-span2-content-left-span13").style.display="none";
 			document.getElementById("search-logo").style.display="none";
 			document.getElementById("span2-content-search-logo").style.display="none";
+			document.getElementById("search-logo").style.display="none	";
 		}
 		
 		

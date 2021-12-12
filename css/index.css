@@ -1,18 +1,16 @@
 *{margin:0;padding: 0;}
-hr{
-	
-	color: #000000;
-	position: absolute;
-	top: 20px;
-}
 
 
 nav{
-	height: 61px;
-	border:1px solid black;
-	border-right-style:none;
-	border-top-style:none;
+	border: 1px solid yellow;
+	height: 61px
+}
+
+.hr1{
 	
+	color: black;
+	width: 1000px;
+	height: 20px;
 }
 span{
 	font-size: 14px;
@@ -29,6 +27,8 @@ span{
 .top-nav-box{
 	position: fixed;
 	width: 100%;
+	top:0;
+	z-index: 100;
 }
 
 .top-nav-img1 { /* aliyun-logo class样式 */
@@ -69,15 +69,16 @@ span{
 	display: block;
 	width: 100%;
 	height: 0px;
+	z-index: 10;
 }
 
 
 
 
 .top-nav-span2-content-left{
+	z-index: 10;
 	position: fixed;
 	margin-top: 0px;
-	border:1px solid red;
 	float: left;
 	width: 25%;
 	height: 0px;
@@ -95,9 +96,9 @@ span{
 
 
 .top-nav-span2-content-right{
+	z-index: 10;
 	position: fixed;
 	margin-left: 25%;
-	border: 1px solid red;
 	float: right;
 	width: 75%;
 	height: 0px;
@@ -372,7 +373,6 @@ span{
 	margin-left: 30px;
 	margin-top: 22px;
 }
-
 .top-nav-span8:hover{
 	color: #ff6a00;
 	cursor:pointer;
@@ -482,27 +482,40 @@ span{
 }
 
 .body-content1{
-	background-color: #E6E6E6;
+	background-color: #E4E4E4;
+	height: 535px;
+	border: 1px solid yellow;
+	margin: 0 auto;
+	
 }
+
+
 
 
 
 .body-content1-img1{
-	margin-left: 350px;
-	height: 450px;
+	
+	position: absolute;
+	height: 535px;
 }
 
 .search-logo{
-	position: absolute;
 	display: none;
 	margin-top: 15px;
 	height: 40px;
 }
 
-.search-logo-hr{
-	color: yellow;
-	width: 200px;
+.body-content1-img1{
+	height: 535px;
 }
+
+.body-content1-span1{
+	margin-top: 200px;
+}
+
+
+
+
 
 
 
