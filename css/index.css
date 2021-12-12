@@ -2,7 +2,7 @@
 
 
 nav{
-	border: 1px solid yellow;
+	border: 1px solid red;
 	height: 61px
 }
 
@@ -25,6 +25,7 @@ span{
 }
 
 .top-nav-box{
+	border:1px solid red;
 	position: fixed;
 	width: 100%;
 	top:0;
@@ -38,6 +39,10 @@ span{
 	vertical-align: baseline;
 	margin-top: 19px;
 	margin-left: 24px;
+}
+
+.top-nav-content{
+	border: 1px solid red;
 }
 
 
@@ -69,14 +74,14 @@ span{
 	display: block;
 	width: 100%;
 	height: 0px;
-	z-index: 10;
+	z-index: -1;
 }
 
 
 
 
 .top-nav-span2-content-left{
-	z-index: 10;
+	border:1px solid red;	
 	position: fixed;
 	margin-top: 0px;
 	float: left;
@@ -87,18 +92,16 @@ span{
 	-webkit-transition: height 0.4s; 
 }
 
-.top-nav-span2-content-left a{ 
-	display: none;
-}
 
 
 
 
 
 .top-nav-span2-content-right{
+	border:1px solid red;
 	z-index: 10;
 	position: fixed;
-	margin-left: 25%;
+	margin-left: 25.0%;
 	float: right;
 	width: 75%;
 	height: 0px;
@@ -484,6 +487,7 @@ span{
 .body-content1{
 	background-color: #E4E4E4;
 	height: 535px;
+	width: 100%;
 	border: 1px solid yellow;
 	margin: 0 auto;
 	
@@ -493,12 +497,6 @@ span{
 
 
 
-.body-content1-img1{
-	
-	position: absolute;
-	height: 535px;
-}
-
 .search-logo{
 	display: none;
 	margin-top: 15px;
@@ -506,17 +504,54 @@ span{
 }
 
 .body-content1-img1{
-	height: 535px;
+	position: absolute;
+	border:1px solid red;
+	height: 534px;
 }
 
 .body-content1-span1{
 	margin-top: 200px;
 }
 
+.body-content1-span3{
+	border: 1px solid red;
+	float: left;
+	background-color: #FF6A00;
+	border: #FF6A00;
+	height: 45px;
+	width: 130px;
+	color: white;
+	margin-top: 250px;
+	margin-left: 130px;
+}
+
+
+.body-content1-span3 :hover{
+	background-color: #FF791A;
+	cursor:pointer;
+}
+
+.body-content1 span{
+	border: 1px solid red;
+}
 
 
 
+.body-content1-button1{
+	float: left;
+	margin-top: 250px;
+	margin-left: 130px;
+	background-color: #FF6A00;
+	border: #FF6A00;
+	height: 40px;
+	width: 122px;
+	color: white;
+}
 
+.body-content1-button1:hover{
+	background-color: #FF791A;
+	cursor:pointer;
+}
 
 
 
