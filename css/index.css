@@ -1,18 +1,20 @@
 *{margin:0;padding: 0;}
 
 
-video{undefined
+video{
+undefined
 width: 100%;
 height: 100%;
 object-fit: contain;
 }
 
-video:focus {undefined
+video:focus {
+	undefined
+
 outline:none;
 }
 
 video::-webkit-media-controls{ 
-display:none !important;
 }
 
 nav{
@@ -504,10 +506,10 @@ span{
 }
 
 .body-content1{
-	background-color: #E4E4E4;
+	background-color:#EEEDF1 ;
 	height: 535px;
-	width: 1580px;
-	border: 1px solid yellow;
+	width: 2030px;
+	border: 1px solid black;
 	margin: 0 auto;
 	cursor:pointer;
 	
@@ -578,11 +580,9 @@ span{
 }
 
 .body-content1-video1{
-	position: absolute;
-	top: 0px;
-	right: 100px;
-	width: 600px;
-	outline: none;
+	float: right;
+	border: 1px solid red;
+	width: 1600px;
 }
 
 
