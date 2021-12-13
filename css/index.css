@@ -1,6 +1,20 @@
 *{margin:0;padding: 0;}
 
 
+video{undefined
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+video:focus {undefined
+outline:none;
+}
+
+video::-webkit-media-controls{ 
+display:none !important;
+}
+
 nav{
 	border: 1px solid red;
 	height: 61px
@@ -18,6 +32,10 @@ span{
 }
 
 
+.body{
+	height: 2000px;
+}
+
 .top-nav{
 	
 	padding-top: 1px;
@@ -30,6 +48,7 @@ span{
 	width: 100%;
 	top:0;
 	z-index: 100;
+	margin: 0 auto;
 }
 
 .top-nav-img1 { /* aliyun-logo class样式 */
@@ -487,7 +506,7 @@ span{
 .body-content1{
 	background-color: #E4E4E4;
 	height: 535px;
-	width: 100%;
+	width: 1580px;
 	border: 1px solid yellow;
 	margin: 0 auto;
 	cursor:pointer;
@@ -508,7 +527,7 @@ span{
 
 .body-content1-img1{
 	float: right;
-	margin-right: 400px;
+	margin-right:100px;
 	border:1px solid red;
 	height: 535px;
 }
@@ -544,7 +563,7 @@ span{
 
 .body-content1-button1{
 	float: left;
-	margin-top: 250px;
+	margin-top: 340px;
 	margin-left: 130px;
 	background-color: #FF6A00;
 	border: #FF6A00;
@@ -556,6 +575,20 @@ span{
 .body-content1-button1:hover{
 	background-color: #FF791A;
 	cursor:pointer;
+}
+
+.body-content1-video1{
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	width: 600px;
+	outline: none;
+}
+
+
+.switch_body{
+	position: absolute;
+	top: -50px;
 }
 
 
@@ -577,14 +610,28 @@ span{
 
 
 .switch_body-2{
+	
 	height: 3px;
 	background-color:#f5f5f5;
 	width: 40px;
 	position: absolute;
 	top:500px;
 	left: 180px;
-	transition: width 2s;
-	-webkit-transition: width 2s; /* Safari */
+	transition: width 0.5s ;
+	margin: 0 0 0 auto;
+}
+
+
+
+.switch_body-2-box{
+	border: 1px solid red;
+	height: 80px;
+	width: 40px;
+	position: absolute;
+	top:500px;
+	left: 130px;
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s; /* Safari */
 }
 
 
@@ -595,8 +642,7 @@ span{
 	position: absolute;
 	top:500px;
 	left: 230px;
-	transition: width 2s;
-	-webkit-transition: width 2s; /* Safari */
+	transition: width 0.5s;
 }
 
 
@@ -607,13 +653,50 @@ span{
 	position: absolute;
 	top:500px;
 	left: 280px;
-	transition: width 2s;
-	-webkit-transition: width 2s; /* Safari */
+	transition: width 0.5s;
+}
+
+.body-content2{
+	background-color: #E4E4E4;
+	height: 90px;
+	border: 1px solid red;
+	margin: 0 auto;
 }
 
 
+.body-content2 div{
+	border: 1px solid red;
+}
 
 
+.body-content2-div1{
+	margin-left: 100px;
+	float: left;
+	width: 280px;
+	height: 90px;
+}
+
+.body-content3{
+	width: 100%;
+	height: 150px;
+}
+
+.body-content4{
+	margin-top: 0px;
+	height:450px;
+}
+
+.body-content5{
+	width: 100%;
+	height: 450px;
+	margin-top: 0px;
+}
+
+
+.customer-service{
+	position: fixed;
+	
+}
 
 
 
