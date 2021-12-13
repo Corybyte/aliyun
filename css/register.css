@@ -205,7 +205,7 @@ a:active{
 }
 .Bottom_business{
 	position: relative;
-	top: 30px;
+	top: 21px;
 }
 .Line{
 	width: 1220px;
@@ -214,19 +214,63 @@ a:active{
 	background-color: #CFD0D1;
 	border: 1px none #CFD0D1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.aliyun_Enterprise{
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+	top: 6px;
+	right: 286px;
+}
+.we{
+	margin-right: 50px;
+	text-decoration: none;
+	color: #9B9EA0;
+}
+.we:hover{
+	color: #28D0E9;
+}
+.law{
+	margin-right: 50px;
+	text-decoration: none;
+	color: #9B9EA0;
+}
+.law:hover{
+	color: #28D0E9;
+}
+.Report{
+	margin-right: 50px;
+	text-decoration: none;
+	color: #9B9EA0;
+}
+.Report:hover{
+	color: #28D0E9;
+}
+.contact{
+	text-decoration: none;
+	margin-right: 50px;
+	color: #9B9EA0;
+}
+.contact:hover{
+	color: #28D0E9;
+}
+.join{
+	text-decoration: none;
+	color: #9B9EA0;
+}
+.join:hover{
+	color: #28D0E9;
+}
+.Enterprise{
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+	right: 104px;
+	
+}
+.khajiu{
+	width:50px ;
+	height: ;
+}
 
 
 
