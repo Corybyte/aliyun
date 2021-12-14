@@ -1,0 +1,246 @@
+*{margin:0;padding: 0;}
+
+video{
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+video:focus {
+outline:none;
+}
+
+nav{
+	background-color: white;
+	height: 61px
+}
+
+.hr1{
+	color: black;
+	width: 1000px;
+	height: 20px;
+}
+
+span{
+	font-size: 14px;
+}
+
+.top-nav{
+	padding-top: 0px;
+	overflow:hidden;
+}
+
+.top-nav-box{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 100;
+	margin: 0 auto;
+}
+
+.top-nav-img1 { /* aliyun-logo class样式 */
+	float: left;
+	width: 100px;
+	height: 24px;
+	vertical-align: baseline;
+	margin-top: 19px;
+	margin-left: 24px;
+}
+
+.top-nav-span1{/* 导航栏 最新活动 class样式*/
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span1:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2{
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span2:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span2-content{
+	display: block;
+	width: 100%;
+	height: 0px;
+	z-index: -1;
+}
+
+.top-nav-span3{
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span3:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span4{
+	float:left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span4:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span5{
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span5:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span6{
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span6:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span7{
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+.top-nav-span7:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span8{
+	float: left;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+.top-nav-span8:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-search-input{
+	margin-right: 30px;
+	float: right;
+	border: 1px solid #e4e3e2;
+	width: 280px;
+	height: 61px;
+}
+
+.top-nav-search-text{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.top-nav-span9{
+	float: right;
+	margin-right: 20px;
+	margin-top: 21px;
+}
+
+.top-nav-span9:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span10{
+	margin-right: 20px;
+	float: right;
+	margin-top: 21px;
+}
+
+.top-nav-span10:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span11{
+	float: right;
+	margin-right: 20px;
+	margin-top: 21px;
+}
+
+.top-nav-span11:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span12{
+	float: right;
+	margin-right: 20px;
+	margin-top: 21px;
+}
+
+.top-nav-span12:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-span13{
+	float: right;
+	margin-top: 21px;
+	margin-right: 20px;
+}
+
+.top-nav-span13:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+
+.top-nav-span14{
+	float: right;
+	margin-top: 21px;
+	margin-right: 20px;
+}
+
+.top-nav-span14:hover{
+	color: #ff6a00;
+	cursor:pointer;
+}
+
+.top-nav-button1{
+	float: right;
+	background-color: #FF6A00;
+	border: #FF6A00;
+	height: 61px;
+	width: 122px;
+	color: white;
+}
+
+.top-nav-button1:hover{
+	background-color: #FF791A;
+	cursor:pointer;
+}
+
+.body-content1{
+	background-color:#EEEDF1 ;
+	height: 6000px;
+	width: 1902px;
+	margin: 0 auto;
+	cursor:pointer;
+}
+
