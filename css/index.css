@@ -814,8 +814,10 @@ span{
 	left: 200px;
 	width:150px;
 	height: 250px;
-	transition: all 1s;
+	transition: all 0.5s;
 }
 
+
+.body-content13-img1-box-img1{}
 
 
