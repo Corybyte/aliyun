@@ -21,7 +21,7 @@
 					<span class="top-na v-span8">了解阿里云</span>
 					<button class="top-nav-button1">立即注册</button>
 					<span class="top-nav-span14">登录</span>
-					<span class="top-nav-span13">控制台</span>
+					<span id="top-nav-span13" class="top-nav-span13">控制台</span>
 					<span class="top-nav-span12">ICP备案</span>
 					<span class="top-nav-span11">购物车</span>
 					<span class="top-nav-span10">文档</span>
@@ -259,6 +259,11 @@
 							<img id="body-content13-img1-box-img1" style="display: none; float: right;height: 250px;" src="../image/body-content13-img1.png" />
 						</div>
 						
+						<div class="body-content13-img2-box-img1" id="body-content13-img2-box-img1"  style="border: 1px solid black;">
+							
+							
+						</div>
+						
 						
 						
 				
@@ -276,6 +281,13 @@
 	</body>
 	
 	<script>
+	
+		//跳转控制台
+		document.getElementById("top-nav-span13").onclick=function(){
+			window.location="console.html";
+		}
+	
+		
 		var onmouse_num=0;
 	
 	
@@ -283,6 +295,7 @@
 			document.getElementById("body-content13-img1-box").style.backgroundColor="#FD8D4D";
 			document.getElementById("body-content13-img1-box").style.width="350px";
 			document.getElementById("body-content13-img1-box-img1").style.display="block";
+			document.getElementById("")
 			
 			
 		}

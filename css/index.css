@@ -818,6 +818,15 @@ span{
 }
 
 
-.body-content13-img1-box-img1{}
+
+
+
+.body-content13-img2-box-img1{
+	position: absolute;
+	left: 350px;
+	width:150px;
+	height: 250px;
+	transition: all 0.5s;
+}
 
 
