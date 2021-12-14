@@ -18,6 +18,7 @@ video::-webkit-media-controls{
 }
 
 nav{
+	background-color: white;
 	border: 1px solid red;
 	height: 61px
 }
@@ -35,7 +36,7 @@ span{
 
 
 .body{
-	height: 2000px;
+	height: 4000px;
 }
 
 .top-nav{
@@ -581,6 +582,7 @@ span{
 
 .body-content1-video1{
 	float: right;
+	margin-top: 0px;
 	border: 1px solid red;
 	width: 1600px;
 }
@@ -657,6 +659,8 @@ span{
 }
 
 .body-content2{
+	position: relative;
+	width: 2030px;
 	background-color: #E4E4E4;
 	height: 90px;
 	border: 1px solid red;
@@ -670,26 +674,44 @@ span{
 
 
 .body-content2-div1{
-	margin-left: 100px;
+	margin-left: 200px;
 	float: left;
+	height:70px;" 
 	width: 280px;
 	height: 90px;
 }
 
 .body-content3{
-	width: 100%;
-	height: 150px;
+	position: relative;
+	width: 2030px;
+	margin: 0 auto;
+	height: 90px;
 }
 
 .body-content4{
-	margin-top: 0px;
-	height:450px;
+	position: relative;
+	width: 2030px;
+	margin: 0 auto;
+	margin-top:0px;
+	height:170px;
 }
 
+.body-content4:hover{
+	cursor:pointer;
+	
+}
+
+
 .body-content5{
-	width: 100%;
-	height: 450px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid red;
+	background-color: #F4F5F7;
+	transition: height 0.5s;
+	width: 2030px;
+	height: 0px;
 	margin-top: 0px;
+	
 }
 
 
@@ -698,6 +720,69 @@ span{
 	
 }
 
+.body-content4 img{
+	border: 1px solid red;
+}
 
+.body-content6{
+	position: relative;
+	margin: 0 auto;
+	cursor:pointer;
+	width: 2030px;
+	height: 170px;
+}
+
+.body-content6 img{
+	border: 1px solid red;
+}
+
+.body-content7{
+	
+}
+
+.body-content8{
+	width: 2030px;
+	cursor: pointer;
+	position: relative;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.body-content9{
+		background-color: white;
+		width: 2030px;
+		cursor: pointer;
+		position: relative;
+		height: 90px;
+		margin: 0 auto;
+
+}
+
+.body-content9-span1-box{
+		position: absolute;
+
+}
+
+
+.body-content9 span:hover{
+	color: #FF6A00;
+}
+
+
+.body-content10{
+	width: 2030px;
+	background-color: #F5F6F8;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+.body-content11{
+	height:300px;
+	width: 2030px;
+	background-color: #F5F6F8;
+	position: relative;
+	margin: 0 auto;
+}
 
 

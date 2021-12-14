@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<title>弹窗添加或修改内容</title>
+<link title="" href="public/css/body.css" rel="stylesheet" type="text/css"  />
+<link title="" href="public/css/style.css" rel="stylesheet" type="text/css"  />
+<link title="blue" href="public/css/dermadefault.css" rel="stylesheet" type="text/css"/>
+<link title="green" href="public/css/dermagreen.css" rel="stylesheet" type="text/css" disabled="disabled"/>
+<link title="orange" href="public/css/dermaorange.css" rel="stylesheet" type="text/css" disabled="disabled"/>
+
+
+<script src="public/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="public/js/style.js"></script>
+
+
+</head>
+
+<!--prettyPrint() 启动代码高亮标签-->
+<body onLoad="prettyPrint()">
+<a id="close2" onClick="hidediv();" title="关闭窗口">×</a>
+
+<div class="down-main">
+  
+  <div class="right-product right-off">
+  <section id="layout" ng-app="doc.ui-layout">
+    <div ui-layout class="layout-mock">
+        <!---rightcontent---->    
+        <div class="center-back right-back">
+        <div class="container-fluid">
+          <div class="info-center">
+            <div class="page-header">
+              	<div class="pull-left">
+                	<h4>打开新窗口, 添加内容</h4>      
+            	</div>
+            </div> 
+            <div class="clearfix"></div>
+            
+            
+            <!--富文本框样式-->
+            <link rel="stylesheet" href="JunUE/css/font-awesome.css">
+            <link rel="stylesheet" href="JunUE/css/font.css">
+            <link rel="stylesheet" href="JunUE/css/global.css">
+            <link rel="stylesheet" href="JunUE/css/prettify.css">
+            <script type="text/javascript" src="JunUE/js/lrtk.js"></script>
+            <script type="text/javascript" src="JunUE/js/layer.js"></script>
+            <script type="text/javascript" src="JunUE/js/junphp.js"></script>
+            <script type="text/javascript" src="JunUE/js/prettify.js"></script>
+              
+              
+            <div class="main left">
+                <div class="main-left width-100" style="margin-top:0px">
+                    <table class="content" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>文本框：</td>
+                            <td><input class="input-text" name="" type="text"></td>									
+                        </tr>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>文本域：</td>
+                            <td><input class="textarea" name="" type="text"></td>									
+                        </tr>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>下拉框：</td>
+                            <td><select class="input-text" name="">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                </select>
+                            </td>									
+                        </tr>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>单选按钮：</td>
+                            <td>
+                                <input name="" type="radio" value=""> <span>男</span>
+                                <input name="" type="radio" value=""> <span>女</span>
+                                <input name="" type="radio" value=""> <span>中性</span>
+                            </td>									
+                        </tr>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>多选按钮：</td>
+                            <td>
+                                <input name="" type="checkbox" value=""> <span>篮球</span>
+                                <input name="" type="checkbox" value=""> <span>足球</span>
+                                <input name="" type="checkbox" value=""> <span>兵乓球</span>
+                            </td>									
+                        </tr>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>图片上传：</td>
+                            <td>
+                                <div style="padding-bottom: 10px;"><img id="Jun-Pic" src="" width="30%"></div>
+                                <div id="Jun-Dian">上传图片</div>
+                                <input id="Jun-Upload" name="file" accept="image/*" type="file" style="display: none"/>
+                            </td>									
+                        </tr>
+                        <tr>
+                            <td class="left-txt"><span class="c-red">*</span>富文本编辑内容：</td>
+                            <td>
+                                <script>JunUE();</script>
+                            </td>									
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <span><input class="Jun-TiJiao" name="" type="submit" value="保存并提交"></span>
+                                <span><input class="Jun-QuXiao" name="" type="reset" value="取消"></span>
+                            </td>									
+                        </tr>
+                        
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </div>  
+                  
+                  
+                      
+          </div>
+          </div>
+        </div>
+   </div>
+  </section>   
+ </div>
+</div>
+
+
+<style>
+.down-main{top:40px}.right-off{left:0px}.info-center .page-header {line-height: 37px;}#layout .right-back{width:100%}.left{float: initial;}#LAY_desc {width: 94.6%;}
+</style>
+</body>
+</html>
