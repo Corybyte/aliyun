@@ -870,5 +870,30 @@ span{
 	
 }
 
+.body-content17{
+	position: relative;
+	margin: 0 auto;
+	width: 1900px;
+	height:420px;
+	
+}
 
 
+.body-content17-div1{
+	position: absolute;
+	width: 950px;
+	height: 210px;
+}
+
+.body-content17-div1-img{
+	transition: all 2s;
+}
+
+
+.body-content18{
+	position: relative;
+	margin: 0 auto;
+	width: 1900px;
+	height:130px;
+	
+}
