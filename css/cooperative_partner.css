@@ -38,7 +38,7 @@ span{
 	margin: 0 auto;
 }
 
-.top-nav-img1 { /* aliyun-logo class样式 */
+.top-nav-img1 {
 	float: left;
 	width: 100px;
 	height: 24px;
@@ -47,7 +47,7 @@ span{
 	margin-left: 24px;
 }
 
-.top-nav-span1{/* 导航栏 最新活动 class样式*/
+.top-nav-span1{
 	float: left;
 	margin-left: 30px;
 	margin-top: 22px;
