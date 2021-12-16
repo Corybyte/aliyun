@@ -508,7 +508,7 @@ span{
 
 .body-content1{
 	position: relative;
-	background-color:#EEEDF1 ;
+	background-color:#DDDDDD ;
 	height: 535px;
 	width: 2030px;
 	margin: 0 auto;
@@ -529,8 +529,9 @@ span{
 }
 
 .body-content1-img1{
-	float: right;
-	margin-right:100px;
+	
+	position: absolute;
+	right: 400px;
 	border:1px solid red;
 	height: 535px;
 }
@@ -580,8 +581,10 @@ span{
 }
 
 .body-content1-video1{
-	float: right;
-	width: 1600px;
+	position: absolute;
+	right: 0px;
+	top: 28px;
+	width: 1250px;
 }
 
 
@@ -670,7 +673,7 @@ span{
 
 .body-content2-div1{
 	transition: all 0.1s;
-	background-color: #E4E4E4;
+	background-color: #F0F0F0;
 	position: absolute;
 	left: 250px;
 	width: 280px;
@@ -678,13 +681,13 @@ span{
 }
 
 .body-content2-div1:hover{
-	background-color: #ededed;
+	background-color: #F5F5F5;
 	
 }
 
 .body-content2-div2{
 	transition: all 0.1s;
-	background-color: #E4E4E4;
+	background-color: #F0F0F0;
 	position: absolute;
 	left: 650px;
 	width: 280px;
@@ -692,14 +695,14 @@ span{
 }
 
 .body-content2-div2:hover{
-	background-color: #ededed;
+	background-color: #F5F5F5;
 	
 }
 
 
 .body-content2-div3{
 	transition: all 0.1s;
-	background-color: #E4E4E4;
+	background-color: #F0F0F0;
 	position: absolute;
 	left: 1050px;
 	width: 280px;
@@ -707,14 +710,14 @@ span{
 }
 
 .body-content2-div3:hover{
-	background-color: #ededed;
+	background-color: #F5F5F5;
 	
 	
 }
 
 .body-content2-div4{
 	transition: all 0.1s;
-	background-color: #E4E4E4;
+	background-color: #F0F0F0;
 	position: absolute;
 	left: 1450px;
 	width: 280px;
@@ -723,7 +726,7 @@ span{
 
 
 .body-content2-div4:hover{
-	background-color: #ededed;
+	background-color: #F5F5F5;
 	
 }
 
@@ -772,9 +775,7 @@ span{
 	
 }
 
-.body-content4 img{
-	border: 1px solid red;
-}
+
 
 .body-content6{
 	position: relative;
