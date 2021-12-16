@@ -1,0 +1,408 @@
+ *{
+	margin: 0;
+	padding: 0;
+}
+.Navigation_bar{
+	height: 60px;
+	border-bottom: 1px solid #D7D8D9;
+	background-color: #F5F5F6;
+}
+.Navigation_bar a{
+	text-decoration:none;
+}
+.logo1{
+	margin: 15px 20px;
+}
+.left-text{
+	font-size: 18px;
+	color: rgb(24, 24, 24);
+	display: inline-block;
+	padding: 0px 10px;
+	width: 56px;
+	height: 24px;
+	position: absolute;
+	top: 16px;
+}
+.left_Notes{
+	display: initial;
+	float: right;
+	position:absolute;
+	right: 72px;
+	top: 18px
+}
+.left_Notes span{	
+	font-size: 14px;
+	color: #373D41;
+}
+.arrow{	
+	width: 8px;
+	height: 8px;
+	border-top: 2px solid #373D47;
+	border-right: 2px solid #373D47;
+	transform: rotate(135deg);
+	position: absolute;
+	bottom: 5px;
+	right: -16px;
+ }
+.arrow:hover{
+	transform: rotate(315deg); 
+ }
+.lnternational{
+	width: 132px;
+	height: 35px;
+	background-color: #F5F5F6;
+	--shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+	text-indent: 4px;
+	position: absolute;
+	top: 42px;
+	left: -12px;
+	padding: 6px;
+	box-sizing: border-box;
+}
+.middle-background{
+	
+	border: 1px solid red;
+	background-size: cover;
+	background-image: url(../image/O1CN01vNozly1imtak4iPBM_!!6000000004456-0-tps-2880-1432.jpg);
+	width: 100%;
+	height: 716px;
+	background-attachment: fixed;
+}
+.logo-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+	padding: 0px;
+}
+.logo-content-left{
+	position: relative;
+	min-width: 640px;
+	height: 560px;
+	margin-right: 150px;
+	background-color:transparent ;
+}
+.logo-content-left img{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+}
+.empty-box{
+	height: 90px;
+}
+.logo-content-right{
+	position: relative;
+	min-width: 600px;
+	background-color: rgb(255, 255, 255);
+	height: 560px;
+	overflow: hidden;
+	box-shadow: rgb(0 0 0 / 15%) 0px 2px 15px;
+}
+.middle{
+	width: 600px;
+	height: 525px;
+}
+.middle-nav{
+	width: 100%;
+	height: 55px;
+	display: flex;
+	border: 1px solid red;
+}
+.middle-nav-left{
+	width: 300px;
+	height: 55px;
+}
+.aliyun-account-console{
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 22px;
+}
+.aliyun-account-console img{
+	margin-left: 82px;
+	margin-top: 15px;
+}
+.aliyun-account-console img:hover{
+	color: #FF0000;
+}
+.middle-nav-left-text{
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+.middle-nav-right{
+	width: 300.5px;
+	height: 53px;
+	border: 1px solid white;
+	border-left: 1px solid rgb(216, 216, 216);
+}
+.aliyun-account-consoleico{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 22px;
+}
+.aliyun-account-consoleico{
+	    margin-top: 20px;
+	    margin-left: 25px;
+}
+.middle-nav-right-text{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -3px;
+	margin-top: 12px;
+}
+.tab-content{
+	width: 600px;
+	height: 470px;
+}
+.qr-wrapper{
+	width: 600px;
+	
+	position: relative;
+	background-color: rgb(255, 255, 255);
+	z-index: 5;
+}
+.alipay{
+	height: 470px;
+	text-align: center;
+	position: relative;
+}
+.next-box{
+	display: block;
+	height: 100%;
+}
+.next-content{
+	
+	height: 412px;
+}
+.box-x{
+	width: 600px;
+	height: 341px;
+}
+.alipay-text{
+	padding-top: 48px;
+}
+.alipay-text-content{
+	font-size: 12px;
+	color: rgb(179, 179, 179);
+	letter-spacing: 0.37px;
+}
+.alipay-register-content{
+	font-size: 12px;
+	color: rgb(179, 179, 179);
+	letter-spacing: 0.37px;
+}
+
+.alipay-QRCode{
+	margin-top: 16px;
+}
+.footer-link{
+	margin-top: 52px;
+}
+.aliyun-download-link{
+	font-size: 14px;
+	margin-right: 16px;
+}
+.footer-link a{
+	font-size: 14px;
+	text-decoration: none;
+	color: rgb(24, 144, 255);
+}
+.footer-logo{
+	z-index: 10;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+}
+.footer-background{
+	display: flex;
+	height: 43.67px;
+}
+.five-logo{
+	width: 300.5px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 1px solid rgb(216, 216, 216);
+}
+.five-logo::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.five-login-text{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+}
+.footer-logo{
+	
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+.five-login-text img{
+	display: inline-block;
+}
+.footer-text{
+	width: 299.5px;
+	line-height: 40px;
+	text-align: center;
+}
+.ram-register-link{
+	cursor: pointer;
+	color: rgb(24, 144, 255);
+	font-size: 12px;
+}
+.afterbody{
+	background-color: #D7D8D9;
+	width: 1028px;
+	height: 188px;
+	margin: 0px auto;
+}
+.background-color{
+	color: #E4E3E2;
+}
+.afterbody-top{
+	box-sizing:border-box;
+	margin: 0px auto;
+	background: rgb(245, 245, 246);
+	padding-top: 17px;
+	padding-bottom: 0px;
+	border-top: 1px solid rgb(207, 208, 209);
+}
+.afterbody-content{
+	-webkit-box-flex: 0;
+	 flex: 0 0 100%;
+	 max-width: 100%;
+	 width: 100%;
+}
+.afterbody-head-content{
+	width: 1135.97px;
+	height: 40px;
+	padding-top: 10px;
+}
+.about-link{
+	line-height: 30px;
+	font-size: 16px;
+	color: rgb(155, 158, 160);
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-right: 35px;
+}
+.second-content a{
+	text-align: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgb(115, 119, 122);
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.third-content{
+	padding-top: 15px;
+}
+.second-text{
+	text-align: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: rgb(115, 119, 122);
+	letter-spacing: 0.5px;
+}
+.third-content img{
+	height: 20px;
+	margin-right: 12px;
+}
+.third-text{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: rgb(147, 147, 147);
+	margin-left: -7px;
+}
+
+.account-password-login{
+	display: none;
+	width: 600px;
+	height: 449px;
+}
+.alibaba-login-iframe{
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.alibaba-login-iframe{
+	    width: 330px;
+	    height: 340px;
+	    border-top-width: 0px;
+	    border-right-width: 0px;
+	    border-bottom-width: 0px;
+	    border-left-width: 0px;
+}
+.register-content{
+	width: 330px;
+	height: 250px;
+}
+.register-content-title{
+	font-size: 19px;
+	text-align: left;
+	font-weight: 400;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin: 0 auto 10px;
+}
+.login-content{
+	height: 210px;
+	width: 100%;
+	margin: 0 auto;
+}
+.loin-next-password{
+	width: 100%;
+	height: 208pox;
+}
+.fm-field{
+	width: 100px;
+	height: 42px;
+	margin-bottom: 18px;
+}
+.fisrt-input input{
+	width: 324px;
+	height: 45px;
+	margin-top: 10px;
+}
+.second-input input{
+	width: 324px;
+	height: 45px;
+	margin-top: 18px;
+}
+.register-button button{
+	background-color: #ff6a00;
+	border-color: #ff6a00;
+	width: 328px;
+	height: 45px;
+	margin-top: 10px;
+}
+.login-link{
+	margin-top: 10px;
+	width: 392px;
+	height: 16px;
+}
+.login-link::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.login-link a{
+	color: #9b9ea0;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px;
+}
