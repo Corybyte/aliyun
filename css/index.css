@@ -591,6 +591,7 @@ span{
 }
 
 
+
 .switch_body-1{
 	height: 3px;
 	background-color:#f5f5f5;
@@ -658,25 +659,78 @@ span{
 .body-content2{
 	position: relative;
 	width: 1900px;
-	background-color: #E4E4E4;
+	background-color: #e6e6e6;
 	height: 90px;
-	border: 1px solid red;
 	margin: 0 auto;
 }
 
 
-.body-content2 div{
-	border: 1px solid red;
-}
+
 
 
 .body-content2-div1{
-	margin-left: 200px;
-	float: left;
-	height:70px;" 
+	transition: all 0.1s;
+	background-color: #E4E4E4;
+	position: absolute;
+	left: 250px;
 	width: 280px;
 	height: 90px;
 }
+
+.body-content2-div1:hover{
+	background-color: #ededed;
+	
+}
+
+.body-content2-div2{
+	transition: all 0.1s;
+	background-color: #E4E4E4;
+	position: absolute;
+	left: 650px;
+	width: 280px;
+	height: 90px;
+}
+
+.body-content2-div2:hover{
+	background-color: #ededed;
+	
+}
+
+
+.body-content2-div3{
+	transition: all 0.1s;
+	background-color: #E4E4E4;
+	position: absolute;
+	left: 1050px;
+	width: 280px;
+	height: 90px;
+}
+
+.body-content2-div3:hover{
+	background-color: #ededed;
+	
+	
+}
+
+.body-content2-div4{
+	transition: all 0.1s;
+	background-color: #E4E4E4;
+	position: absolute;
+	left: 1450px;
+	width: 280px;
+	height: 90px;
+}
+
+
+.body-content2-div4:hover{
+	background-color: #ededed;
+	
+}
+
+
+
+
+
 
 .body-content3{
 	position: relative;
@@ -686,6 +740,7 @@ span{
 }
 
 .body-content4{
+	background-color: #ECEBEE;
 	position: relative;
 	width: 1900px;
 	margin: 0 auto;
