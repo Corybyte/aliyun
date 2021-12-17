@@ -508,9 +508,9 @@ span{
 
 .body-content1{
 	position: relative;
-	background-color:#DDDDDD ;
+	background-color:#ECECEC;
 	height: 535px;
-	width: 2030px;
+	width: 1900px;
 	margin: 0 auto;
 	cursor:pointer;
 	
@@ -532,9 +532,11 @@ span{
 	
 	position: absolute;
 	right: 400px;
-	border:1px solid red;
 	height: 535px;
 }
+
+
+
 
 .body-content1-span1{
 	margin-top: 200px;
@@ -582,9 +584,10 @@ span{
 
 .body-content1-video1{
 	position: absolute;
-	right: 0px;
-	top: 28px;
-	width: 1250px;
+	top:80px;
+	height: 500px;
+	width:1300px;
+	right: 300px;
 }
 
 
@@ -739,7 +742,7 @@ span{
 	position: relative;
 	width: 1900px;
 	margin: 0 auto;
-	height: 90px;
+	height: 140px;
 }
 
 .body-content4{
@@ -749,10 +752,30 @@ span{
 	margin: 0 auto;
 	margin-top:0px;
 	height:170px;
+	text-align: center;
 }
 
 .body-content4:hover{
 	cursor:pointer;
+	
+}
+
+
+
+
+
+.body-content4-img1-div1:hover{
+	width: 100px;
+}
+
+.body-content4-img1-box{
+	position: relative;
+	margin: 0 auto;
+	background-color: #F4F5F7;
+	transition: all 0.5s;
+	width: 1900px;
+	height: 0px;
+	margin-top: 0px;
 	
 }
 
@@ -778,6 +801,7 @@ span{
 
 
 .body-content6{
+	background-color: white;
 	position: relative;
 	margin: 0 auto;
 	cursor:pointer;
@@ -785,20 +809,23 @@ span{
 	height: 170px;
 }
 
-.body-content6 img{
-	border: 1px solid red;
-}
+
 
 .body-content7{
 	
 }
 
 .body-content8{
+	background-color: white;
 	width: 1900px;
 	cursor: pointer;
 	position: relative;
-	height: 90px;
+	height: 180px;
 	margin: 0 auto;
+}
+
+.body-content9-span1-box{
+	width: 1900px;
 }
 
 .body-content9{
@@ -824,6 +851,7 @@ span{
 
 .body-content10{
 	width: 1900px;
+	height: 700px;
 	background-color: #F5F6F8;
 	position: relative;
 	margin: 0 auto;
