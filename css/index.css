@@ -584,7 +584,7 @@ span{
 
 .body-content1-video1{
 	position: absolute;
-	top:80px;
+	top:40px;
 	height: 500px;
 	width:1300px;
 	right: 300px;
@@ -859,16 +859,14 @@ span{
 }
 
 .body-content11{
-	height:300px;
+	height:370px;
 	width: 1900px;
 	background-color: #F5F6F8;
 	position: relative;
 	margin: 0 auto;
 }
 
-.body-content11 img{
-	border: 1px solid red;
-}
+
 
 
 .body-content12{
@@ -878,10 +876,7 @@ span{
 	margin: 0 auto;
 }
 
-.body-content12 span{
-	border: 1px solid red;
-	
-}
+
 
 .body-content13{
 	background-color: #3d3d3d;
