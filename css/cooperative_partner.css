@@ -1,4 +1,7 @@
-*{margin:0;padding: 0;}
+*{
+margin:0px;
+padding: 0px;
+}
 
 video{
 width: 100%;
@@ -242,5 +245,64 @@ span{
 	width: 1902px;
 	margin: 0 auto;
 	cursor:pointer;
+}
+
+.Top_picture{
+	width: 1190px;
+	border: 1px solid red;
+	position: relative;
+	top: 75px;
+	left: 375px;
+}
+
+.yun{
+	padding-right: 25px;
+}
+
+.Alibaba-cloud-ecological-partner{
+	width: 304px;
+	position: relative;
+	left: 1246px;
+	bottom: 218px;
+}
+
+.Alibaba-cloud-ecological-partner h3{
+	font-size: 28px;
+	color: #FFFFFF;
+	letter-spacing: 0.86px;
+}
+.partners{
+	line-height: 34px;
+	text-align: center;
+	display: inline;
+}
+.Join_partners{
+	width: 164px;
+	height: 34px;
+	font-size: 14px;
+	border: 1px solid red;
+	background-color: #FF6A00;
+	position: relative;
+	left: 1204px;
+	bottom: 190px;
+}
+
+.Join_partners a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Query_partners{
+	width: 164px;
+	height: 34px;
+	border: 1px solid red;
+	background-color: #FF6A00;
+	position: relative;
+	left: 1380px;
+	bottom: 226px;
+}
+
+.Query_partners a{
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
