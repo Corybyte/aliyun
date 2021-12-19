@@ -307,8 +307,9 @@ span{
 }
 
 .Login_management_background{
-	width: ;
-	height: ;
+	width: 100%;
+	
+	border: 1px solid red;
 	display: inline;
 	
 }
