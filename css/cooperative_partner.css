@@ -239,7 +239,7 @@ span{
 	cursor:pointer;
 }
 
-.body-content1{
+.body-content_1{
 	background-color:#EEEDF1 ;
 	height: 6000px;
 	width: 1902px;
@@ -249,9 +249,8 @@ span{
 
 .Top_picture{
 	width: 1190px;
-	border: 1px solid red;
 	position: relative;
-	top: 75px;
+	top: 85px;
 	left: 375px;
 }
 
@@ -280,7 +279,7 @@ span{
 	width: 164px;
 	height: 34px;
 	font-size: 14px;
-	border: 1px solid red;
+
 	background-color: #FF6A00;
 	position: relative;
 	left: 1204px;
@@ -294,7 +293,6 @@ span{
 .Query_partners{
 	width: 164px;
 	height: 34px;
-	border: 1px solid red;
 	background-color: #FF6A00;
 	position: relative;
 	left: 1380px;
@@ -307,12 +305,339 @@ span{
 }
 
 .Login_management_background{
-	width: 100%;
-	
-	border: 1px solid red;
-	display: inline;
-	
+	width: 340px;
+	height: 34px;
+	border: 1px solid #FFFFFF;
+	background: hsla(0,0%,100%,.2);
+	position: relative;
+	left: 1204px;
+	bottom: 216px;
 }
+
+.Login_management_background a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.Login_management_background a:hover{
+	color: #000000;
+}
+.real-time_info{
+	max-width: 340px;
+	height: 118px;
+	background-color: #FFFFFF;
+	opacity: 0.7;
+	position: relative;
+	left: 1204px;
+	bottom: 204px;
+}
+
+.real-time{
+	text-indent: 8px;
+	font-size: 13px;
+	margin-top: 5px;
+	color: #231B17;
+}
+
+.real-time_info ul li{
+	list-style: none;
+	line-height:26px;
+	text-indent:8px;
+}
+
+.real-time_info ul li a{
+	color: #231B17;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.real-time_info ul li a:hover{
+	color: #C1570F;
+}
+
+.body-content_2{
+	height: 392px;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	position: relative;
+	bottom: 160px;
+	border-bottom: 1px solid #D9DBE0;
+	box-shadow: 0px 5px #EAEAEA;
+}
+
+.Level{
+	background-color: #D9DBE0;
+	border: 1px solid #D9DBE0;
+	position:relative;
+	top: 65px;
+	box-shadow: ;
+}
+
+.Application_process{
+	width: 115px;
+	height: 61px;
+	border-bottom: 3px solid #FF6A00;
+	text-align: center;
+	line-height: 58px;
+	position: relative;
+	left: 650px;
+}
+
+.Application_process a{
+	font-size: 15px;
+	color: #181818;
+	text-decoration: none;
+}
+
+.Partner_type{
+	width: 115px;
+	height: 60px;
+	text-align: center;
+	line-height: 58px;
+	position: relative;
+	bottom: 64px;
+	left: 818px;
+}
+
+.Partner_type a{
+	font-size: 15px;
+	color: #181818;
+	text-decoration: none;
+}
+
+.Partner_Program{
+	width: 115px;
+	height: 60px;
+	text-align: center;
+	line-height: 58px;
+	position: relative;
+	bottom: 124px;
+	left: 980px;
+}
+
+.Partner_Program a{
+	font-size: 15px;
+	color: #181818;
+	text-decoration: none;
+}
+
+.Training_and_certification{
+	width: 115px;
+	height: 60px;
+	text-align: center;
+	line-height: 58px;
+	position: relative;
+	bottom: 184px;
+	left: 1165px;
+}
+
+.Training_and_certification a{
+	font-size: 15px;
+	color: #181818;
+	text-decoration: none;
+}
+
+.Alibaba_cloud_partner_application_process{
+	width: 216px;
+	font-size: 24px;
+	letter-spacing: -1spx;
+	position: relative;
+	bottom: 110px;
+	left: 374px;
+}
+
+.item{
+	width: 145px;
+	height: 120px;
+	display: inline
+	border: 1px solid red;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	left: 363px;
+	bottom: 78px;
+}
+
+#Notes{
+	padding-top: 14px;
+}
+
+.Arrow{
+	width: 10px;
+	display: inline
+	border: 1px solid red;
+	position: relative;
+	left: 194px;
+	bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
