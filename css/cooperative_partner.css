@@ -251,7 +251,7 @@ span{
 	width: 1190px;
 	border: 1px solid red;
 	position: relative;
-	top: 75px;
+	top: 85px;
 	left: 375px;
 }
 
@@ -307,26 +307,56 @@ span{
 }
 
 .Login_management_background{
-	width: 100%;
-	
-	border: 1px solid red;
-	display: inline;
-	
+	width: 340px;
+	height: 34px;
+	border: 1px solid #FFFFFF;
+	background: hsla(0,0%,100%,.2);
+	position: relative;
+	left: 1204px;
+	bottom: 216px;
 }
 
+.Login_management_background a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
 
+.Login_management_background a:hover{
+	color: #000000;
+}
+.real-time_info{
+	max-width: 340px;
+	height: 118px;
+	border: 1px solid red;
+	background-color: #FFFFFF;
+	opacity: 0.7;
+	position: relative;
+	left: 1204px;
+	bottom: 204px;
+}
 
+.real-time{
+	text-indent: 8px;
+	font-size: 13px;
+	margin-top: 5px;
+	color: #231B17;
+}
 
+.real-time_info ul li{
+	list-style: none;
+	line-height:26px;
+	text-indent:8px;
+}
 
+.real-time_info ul li a{
+	color: #231B17;
+	font-size: 13px;
+	text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
+.real-time_info ul li a:hover{
+	color: #C1570F;
+}
 
 
 
