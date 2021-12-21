@@ -30,16 +30,24 @@
 				</nav>
 
 			</div>
-
-			<div  id="top-nav-list1" style="border: 1px solid red;height: 0px;position: fixed;transition: all 2s;">
-				<div class="top-nav-list1-left">
-					
-					
-				</div>
 				
+				<div style="position: relative;">
+						<div id="top-nav-list-left" style="position: fixed;z-index:2;height:0px;border: 1px solid red;top: 63px;width: 420px;background-color: #F5F5F6;    transition: all 1s;">
+						
+						
+						
+						</div>
+						
+						
+						<div id="top-nav-list-right" style="position: fixed;z-index:2;height: 0px;border: 1px solid red;top: 63px;width: 1480px;right: 0px;background-color: white; transition: height 1s;">
+						
+						123
+						</div>
+				</div>		
 				
+			
 				
-			</div>
+		
 
 
 
@@ -1169,12 +1177,39 @@
 
 	<script>
 	
+		
 
 
 		//跳转控制台
 		document.getElementById("top-nav-span13").onclick = function() {
 			window.location = "console.html";
 		}
+		
+		
+		document.getElementById("top-nav-span2").onmouseover=function(){
+			document.getElementById("top-nav-list-left").style.height="470px";
+			document.getElementById("top-nav-list-right").style.height="470px";
+		}
+		
+		document.getElementById("top-nav-list-left").onmouseout=function(){
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
 
 
 
