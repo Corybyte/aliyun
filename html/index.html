@@ -32,16 +32,27 @@
 			</div>
 				
 				<div style="position: relative;">
-						<div id="top-nav-list-left" style="position: fixed;z-index:2;height:0px;border: 1px solid red;top: 63px;width: 420px;background-color: #F5F5F6;    transition: all 1s;">
-						
+						<div id="top-nav-span2-list-left" style="position: fixed;z-index:2;height:0px;top: 63px;width: 420px;background-color: #F5F5F6;    transition: all 0.5s;">
+							<div  id="top-nav-span2-list-left-text" style="display: none;">
+								<span style="position: absolute;left: 30px;">查看全部产品</span>
+								
+								
+								
+							</div>
+							
 						
 						
 						</div>
 						
 						
-						<div id="top-nav-list-right" style="position: fixed;z-index:2;height: 0px;border: 1px solid red;top: 63px;width: 1480px;right: 0px;background-color: white; transition: height 1s;">
+						<div id="top-nav-span2-list-right" style="position: fixed;z-index:2;height: 0px;top: 62px;width: 1483px;right: 0px;background-color: white; transition: height 0.5s;">
 						
-						123
+							<div  id="top-nav-span2-list-right-text">
+								
+								
+								
+							</div>
+					
 						</div>
 				</div>		
 				
@@ -1187,14 +1198,34 @@
 		
 		
 		document.getElementById("top-nav-span2").onmouseover=function(){
-			document.getElementById("top-nav-list-left").style.height="470px";
-			document.getElementById("top-nav-list-right").style.height="470px";
+			document.getElementById("top-nav-span2-list-left").style.height="470px";
+			document.getElementById("top-nav-span2-list-right").style.height="470px";
 		}
 		
-		document.getElementById("top-nav-list-left").onmouseout=function(){
-			
-			
-			
+		
+		document.getElementById("top-nav-span2-list-left").onmouseover=function(){
+			document.getElementById("top-nav-span2-list-left").style.height="470px";
+			document.getElementById("top-nav-span2-list-right").style.height="470px";
+		}
+		
+		
+		document.getElementById("top-nav-span2-list-right").onmouseover=function(){
+			document.getElementById("top-nav-span2-list-left").style.height="470px";
+			document.getElementById("top-nav-span2-list-right").style.height="470px";
+		}
+		
+		
+		document.getElementById("top-nav-span2-list-left").onmouseout=function(){
+			document.getElementById("top-nav-span2-list-left").style.height="0px";
+			document.getElementById("top-nav-span2-list-right").style.height="0px";
+		}
+		
+		
+		
+		
+		document.getElementById("top-nav-span2-list-right").onmouseout=function(){
+			document.getElementById("top-nav-span2-list-left").style.height="0px";
+			document.getElementById("top-nav-span2-list-right").style.height="0px";
 		}
 		
 		
