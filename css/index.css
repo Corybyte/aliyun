@@ -1015,3 +1015,12 @@ span{
 	height:600px;
 }
 
+
+.top-nav-span2-list-left-text span{
+	cursor:pointer;
+}
+
+
+.top-nav-span2-list-left-text span:hover{
+	color: #FF791A;
+}
