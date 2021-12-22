@@ -1022,5 +1022,6 @@ span{
 
 
 .top-nav-span2-list-left-text span:hover{
+	width: 90px;
 	color: #FF791A;
 }
