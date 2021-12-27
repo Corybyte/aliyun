@@ -1025,3 +1025,48 @@ span{
 	width: 90px;
 	color: #FF791A;
 }
+
+
+.search-box div:hover{
+	cursor:pointer;
+
+	background-color: #F9F9F9;
+}
+
+
+.content2-img1{
+	
+}
+
+.css-img1{
+	background-image: url(../image/test1.png);
+	background-position-x: 0px;
+    background-repeat:no-repeat;
+	transition: all 2s;
+
+
+} 
+
+
+
+.css-img1:hover{
+
+	animation: run 5s steps(3) infinite;
+} 
+
+@keyframes run {
+    0% {
+        background-position:0;
+    }
+	20% {
+	    background-position-y: 120px;
+	}
+	
+    100% {
+        background-position-y: 0px;
+    }
+}
+
+
+
+
