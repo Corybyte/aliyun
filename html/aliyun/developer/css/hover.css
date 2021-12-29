@@ -1,0 +1,15 @@
+.zgzhan:hover .zgzhan-block{
+    display: block;
+}
+.zgzhan:hover a i,
+.navbar-main>ul>li>a:hover i{
+    transform:rotate(180deg);
+}
+.zgzhan-block>ul>li>a:hover,
+.header-list ul li a:hover,
+.header-list ul li a:hover i{
+    color: #ff6a00;
+}
+.header-list ul li:last-child:hover a{
+    color: #fff;
+}

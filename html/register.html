@@ -59,7 +59,7 @@
 					<input type="text"  class="number" name="text" placeholder="请输入手机号码"/>
 						</form>
 				<div>
-					<div class="Registration">
+					<div id="login" class="Registration">
 						<a href="">
 							同意并注册
 						</a>
@@ -131,6 +131,9 @@
 		<script>
 			document.getElementById("username").onclick=function(){
 				document.getElementById("Tips").style.display="block";
+			}
+			document.getElementById("login").onclick=function(){
+				window.location = "aliyun/user.html";
 			}
 		</script>
 	</body>

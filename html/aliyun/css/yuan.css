@@ -1,0 +1,111 @@
+.yuanbla{
+    position: absolute; 
+    top: 140px; 
+    left: 160px;
+}
+.yuanblb{
+    position: absolute; 
+    top: 150px; 
+    left: 290px;
+}
+.yuanblc{
+    position: absolute; 
+    top: 90px; 
+    left: 520px;
+}
+.yuanbld{
+    position: absolute; 
+    top: 100px; 
+    left: 560px;
+}
+.yuanble{
+    position: absolute; 
+    top: 170px; 
+    left: 670px;
+}
+.yuanblf{
+    position: absolute; 
+    top: 230px; 
+    left: 750px;
+}
+.yuanblg{
+    position: absolute; 
+    top: 158px; 
+    left: 850px;
+}
+.yuanblh{
+    position: absolute; 
+    top: 188px; 
+    left: 855px;
+}
+.yuan{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #1BC8E2;
+}
+.yuanbl2,.yuanbl3,.yuanbl4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    border-radius: 50%;
+    border: rgb(0, 217, 255) solid 1px;
+}
+.yuanbl3{
+    transform: scale(4);
+}
+.yuanbl4{
+    transform: scale(5);
+}
+.yuanbl2{
+    transform: scale(0);
+	animation:border2 1s;
+	-moz-animation:border2 1s; /* Firefox */
+	-webkit-animation:border2 1s; /* Safari and Chrome */
+    -o-animation:border2 1s; /* Opera */
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
+@keyframes border2
+{
+    0%   { transform: scale(1);}
+    30%  { transform: scale(2);}
+    60% { transform: scale(3);}
+	100% { transform: scale(4);}
+}
+.yuanbl3{
+    transform: scale(0);
+	animation:border3 2s;
+	-moz-animation:border3 2s; /* Firefox */
+	-webkit-animation:border3 2s; /* Safari and Chrome */
+    -o-animation:border3 2s; /* Opera */
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
+@keyframes border3
+{
+    0%   { transform: scale(1);}
+    30%  { transform: scale(2);}
+    60% { transform: scale(3);}
+	100% { transform: scale(4);}
+}
+.yuanbl4{
+    transform: scale(0);
+	animation:border4 3s;
+	-moz-animation:border4 3s; /* Firefox */
+	-webkit-animation:border4 3s; /* Safari and Chrome */
+    -o-animation:border4 3s; /* Opera */
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
+@keyframes border4
+{
+    0%   { transform: scale(4);}
+    30%  { transform: scale(5);}
+    60% { transform: scale(6);}
+	100% { transform: scale(7);}
+}

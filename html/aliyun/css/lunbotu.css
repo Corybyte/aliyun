@@ -1,0 +1,135 @@
+.top-main-lunbo-re{
+    position: relative;
+    top: -90px;
+    width: 100%;
+    min-width: 1240px;
+    height: 550px;
+}
+.top-main-lunbo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -5;
+}
+.top-main-lunbo-img{
+    position: relative;
+    width: 100%;
+    min-width: 1240px;
+}
+.top-main-lunbo-img img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 640px;
+}
+#main-lunbo-img-a,
+#main-lunbo-img-b,
+#main-lunbo-img-c,
+#main-lunbo-img-d,
+#main-lunbo-img-e{
+    position: relative;
+    transition: left 1s;
+}
+.lunbo-daohang{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.lunbo-main{
+    width: 1200px;
+    height: 300px;
+    margin: 180px auto 0;
+}
+.lunbo-main h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+.lunbo-main h2{
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 20px 0 40px 0;
+}
+.lunbo-main p a,
+.lunbo-main p a i{
+    color: #fff;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    padding: 3px;
+    transition: color 1s;
+}
+.lunbo-main p a{
+    border-bottom: #00A2D1 solid 4px;
+}
+.lunbo-main p a i{
+    margin-left: 8px;
+}
+.lunbo-bottom-wrap{
+    position: relative;
+    top:505px;
+    width: 100%;
+    height:135px;
+    background-color: rgba(73, 72, 72, 0.2);
+}
+.lunbo-wrap-main{
+    width: 1240px;
+    height: 135px;
+    margin: auto;/* 
+    border-right: #34373F solid 1px; */
+    border-left: #34373F solid 1px;
+}
+.warp-main-padd{
+    width: 246.8px;
+    height: 135px;
+    float: left;
+    border-right: #34373F solid 1px;
+}
+.main-padd-content{
+    padding: 30px;
+}
+.main-padd-content h2{
+    color: #fff;
+    font-weight: bolder;
+    height: 18px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.main-padd-content .index-box-desc{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    opacity: .6;
+}
+
+
+.top-main-lunbo-img .lunbo-img-b img
+{
+    opacity: 0;
+	animation:myfirst 1s;
+	-moz-animation:myfirst 1s; /* Firefox */
+	-webkit-animation:myfirst 1s; /* Safari and Chrome */
+    -o-animation:myfirst 1s; /* Opera */
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate; /* Safari 和 Chrome */
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
+
+@keyframes myfirst
+{
+    0%   {opacity: 0;}
+    10% {opacity: .1;}
+    20% {opacity: .2;}
+    30%  {opacity: .3;}
+    40% {opacity: .4;}
+    50%  {opacity: .5;}
+    60% {opacity: .6;}
+    70% {opacity: .7;}
+    80% {opacity: .8;}
+    90% {opacity: .9;}
+	100% {opacity: 1;}
+}
