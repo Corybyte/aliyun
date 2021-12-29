@@ -17,14 +17,14 @@
 					<span class="top-nav-span4">云市场</span>
 					<span class="top-nav-span5">合作伙伴</span>
 					<span class="top-nav-span6">支持与服务</span>
-					<span class="top-nav-span7">开发者</span>
+					<span id="kfz" class="top-nav-span7">开发者</span>
 					<span class="top-nav-span8">了解阿里云</span>
-					<button class="top-nav-button1">立即注册</button>
-					<span class="top-nav-span14">登录</span>
+					<button class="top-nav-button1" id="register">立即注册</button>
+					<span class="top-nav-span14" id="login">登录</span>
 					<span id="top-nav-span13" class="top-nav-span13">控制台</span>
 					<span class="top-nav-span12">ICP备案</span>
 					<span class="top-nav-span11">购物车</span>
-					<span class="top-nav-span10">文档</span>
+					<span class="top-nav-span10">文档</span> 
 					<span class="top-nav-span9">中国站</span>
 					<span id="top-nav-search-input" class="top-nav-search-input"></span>
 				</nav>
@@ -1380,6 +1380,23 @@
 			window.location = "product.html";
 		}
 		
+		
+		//跳转控制台
+		document.getElementById("login").onclick = function() {
+			window.location = "log_on.html";
+		}
+		
+		
+		//跳转控制台
+		document.getElementById("register").onclick = function() {
+			window.location = "register1.html";
+		}
+		
+		
+		//跳转控制台
+		document.getElementById("kfz").onclick = function() {
+			window.location = "aliyun/developer.html";
+		}
 		
 		
 		
