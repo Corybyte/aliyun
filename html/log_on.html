@@ -68,7 +68,7 @@
 																		 <input type="password" name="请输入登录密码" placeholder="请输入登录密码" />
 																	 </div>
 																	 <div class="register-button">
-																		 <button type="submit" tabindex="3" class="fm-button fm-submit password-login">登录</button>
+																		 <button id="login" type="submit" tabindex="3" class="fm-button fm-submit password-login">登录</button>
 																	 </div>
 																	 <div class="login-link">
 																		 <a href="https://passport.aliyun.com/ac/password_find.htm?lang=zh_CN&appName=aliyun&fromSite=6&call_back_url=##returnUrl##" >忘记密码</a>
@@ -198,5 +198,10 @@
 							document.getElementById("QR_code_login").style.display="block";
 							document.getElementById("Password_login").style.display="none";
 						}
+						//跳转控制台
+						document.getElementById("login").onclick = function() {
+							window.location = "aliyun/user.html";
+						}
+						
 					</script>
 				</html>
