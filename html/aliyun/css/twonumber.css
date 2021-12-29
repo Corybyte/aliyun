@@ -1,0 +1,75 @@
+.header-top-aside-nav{
+    top: 49px;
+    left: -180px;
+    z-index: 5;
+}
+.header-top-aside-nav,.as-nav-block{
+    position: absolute;
+    transition: left 1s;
+    z-index: 1;
+    width: 180px;
+    height: 700px;
+    background-color: #272B2E;
+    border-right: rgba(255, 255, 255,.4) solid 1px;
+}
+.header-list-dl dd{
+    width: 180px;
+    height: 18px;
+    margin: 0px 20px 0 20px;
+}
+.header-top-aside-nav-list{
+    padding: 25px 0;
+    position: relative;
+}
+.header-top-aside-nav-list>ul>li{
+    /* position: relative; */
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    /* color: #fff; */
+    font-size: 14px;
+    padding: 0 25px;
+}
+.header-top-aside-nav-list>ul>li>i{
+    float: right;
+    /* color: #fff; */
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+.aside-nav-list-two dl,
+.aside-nav-list-two-cp li{
+    z-index: -1;
+}
+.aside-nav-list-two,
+.aside-nav-list-two-cp{
+    position: absolute;
+    z-index: -1;
+    width: 800px;
+    height: 700px;
+    background-color: #272B2E;
+}
+.aside-nav-list-two{
+    top: -25px;
+    left:-1800px;
+    transition: all .5s;
+}
+.aside-nav-list-two-cp{
+    top: 0px;
+    left: -1800px;
+    transition: all .5s;
+}
+.aside-nav-list-two>dl>dd{
+    height: 15px;
+    line-height: 15px;
+}
+
+.as-nav-block{
+    z-index: -1;
+    top: -24px;
+    left: -181px;
+}
+.ula{
+    position: absolute;
+    z-index: 999;
+}
