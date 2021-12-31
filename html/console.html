@@ -3,21 +3,21 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link href="../css/控制台.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/console.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
 		<!--顶部导航 -->
 		<div class="head">
 		<div class="first">
-				<a href="#"><img src="img/head1.jpg"/></a>
-				<a href="#" class="aly"><img src="img/logo.jpg"/></a>
+				<a href="#"><img src="../image/head1.jpg"/></a>
+				<a href="#" class="aly"><img src="../image/logo.jpg"/></a>
 				<span class="one">|</span>
 		<div class="Working">
-				<a href="#" class="two"> <img style="margin-top: 12px; margin-left:10px;" src="img/房子.jpg"/>
+				<a href="#" class="two"> <img style="margin-top: 12px; margin-left:10px;" src="../image/home.jpg"/>
 				<span class="workbench">工作台</span></a>
 		</div>
 		<div class="search">
-			<img src="img/放大镜2.png"/>
+			<img src="../image/magnifier2.png"/>
 			<form>
 				<input style="outline:none;" type="text" class="second" placeholder="搜索..."/>
 			</form>
@@ -29,12 +29,12 @@
 				<li><a href="#"><span class="enterprise">企业</span></a></li>
 				<li><a href="#"><span class="support">支持</span></a></li>
 				<li><a href="#"><span class="app">App</span></a></li>
-				<li><a href="#"><img class="ymlh" src="img/云命令行.jpg"/></a></li>
-				<li><a href="#"><img class="xxtzl" src="img/消息通知铃.jpg"/></a></li>
-				<li><a href="#"><img class="gwc" src="img/购物车.jpg"/></a></li>
-				<li><a href="#"><img class="bzwd" src="img/帮助文档.jpg"/></a></li>
+				<li><a href="#"><img class="ymlh" src="../image/linux.jpg"/></a></li>
+				<li><a href="#"><img class="xxtzl" src="../image/message.jpg"/></a></li>
+				<li><a href="#"><img class="gwc" src="../image/shopping.jpg"/></a></li>
+				<li><a href="#"><img class="bzwd" src="../image/helpword.jpg"/></a></li>
 			    <li><a href="#"><span class="character">简体</span></a></li>
-			    <li><a href="#"><img class="account" src="img/账户.jpg"/></a></li>
+			    <li><a href="#"><img class="account" src="../image/account.jpg"/></a></li>
 			</ul>
 		</div>
 		</div>
@@ -45,33 +45,41 @@
 			<a href="#"><span  class="view-tutorial">查看教程</span></a>
 			<span class="kssh">,&nbsp&nbsp快速上手自定义视图</span>
 			<div class="tabs">
-			<div class="resource">
-				<a><span  class="zygl">资源管理</span></a>			
+			<div class="zhiyuanguanli1">
+			<div class="resource" id="zhiyuanguanli" tabindex="1">
+				<a><span class="zygl">资源管理</span></a>			
 			</div>
-			<div class="operation">
+			</div>
+			<div class="yunweiguanli1">
+			<div class="operation" id="yunweiguanli" tabindex="1">
 				<a><span class="ywgl">运维管理</span></a>
 			</div>
-			<div class="products">
+			</div>
+			<div class="productyufuwu">
+			<div class="products" id="changpingyufuwu" tabindex="1">
 				<a><span class="cpyfw">产品与服务</span></a>
 			</div>
-			<div class="security">
+			</div>
+			<div class="zuihouyige">
+			<div class="security" id="anquanzhongxing" tabindex="1">
 				<a><span class="aqzx">安全中心</span></a>
 			</div>
+			</div>
 			<div class="terminal">
-				<a href="#"><img src="img/新建视图.jpg"/></a>
-				<a href="#"><img src="img/设置.jpg"/></a>
+				<a href="#"><img src="../image/navicat.jpg"/></a>
+				<a href="#"><img src="../image/set.jpg"/></a>
 			</div>
 			</div>
 			<div class="toolkit">
 				<div class="gj">
-					<a><img class="img1" src="img/工具.jpg"/></a>
+					<a><img class="img1" src="../image/tool.jpg"/></a>
 					<a><span class="tool">工具与解决方案</span></a>
 				</div>
 				<div class="syyj">
-					<a><img  class="img2" src="img/首页意见.jpg"/></a>
+					<a><img  class="img2" src="../image/suggest.jpg"/></a>
 					<a><span class="opinion">首页意见反馈</span></a>
 			   </div>
-			</div>	
+			</div>
 		</div>
 		<hr  style="position:relative;top:-8px; color:#C0C6CC;"/>
 		
@@ -94,18 +102,16 @@
 						<ol class="first2">
 							<div class="type">
 								<li><span>按类型和地域</span></li>
-								<li><span>查看云上资源</span></li>
+								<li><span>查看云上资源</span>
 							</div>
 							<div class="fuzzy">
 								<li><span>模糊搜索</span></li> 
-								<li><span>云上资源</span></li>
+								<li><li><span>云上资源</span>
 							</div>
-							
 						<div class="examples">
 								<li><span>常用实例</span></li>
-								<li><span>快速查看和操作</span></li>
+								<li><span>快速查看和操作</span>
 					 </div>
-					 
 					</ol>
 					</div>
 				<div class="first3">
@@ -117,7 +123,7 @@
 				</label>
 				</div>
 				<div class="first4">
-					<img src="img/授权.jpg"/>
+					<img src="../image/empower.jpg"/>
 					<span class="ram">授权成功以后，会自动在 RAM 中创建一个名为 AliyunServiceRoleForResourceMetaCenter 的角色，资源管理服务将使用这个角色来访问云产品资源，请您<p>不要在RAM控制台中删除它。</p></span>
 				</div>
 				
@@ -128,7 +134,7 @@
 				<!-- 资源信息概览-->
 				<div class="first5">
 					<div class="two1">
-						<img  class="two2" src="img/资源信息概览.png"/>
+						<img  class="two2"src="../image/resource.png"/>
 						<span class="two3">1. 资源信息概览</span><br/>
 						<span class="two4">
 						将您的所有云上资源，按照类型和地域进行分类展<br/>示。<br/><br/>
@@ -136,31 +142,31 @@
 						鼠标点击任意资源卡片，会展示该类型的资源实例<br/>列表。
 						</span>
 					</div>
-						<img  class="information" src="./img/资源概览.png"/>
+						<img  class="information" src="../image/background1.png"/>
 						</div>
 				<!-- 资源搜索-->
 				<div class="first6">
 					<div class="three1">
-						 <img  class="three2" src="img/资源搜索.png"/>
+						 <img  class="three2" src="../image/search.png"/>
 						<span class="three3">2. 资源搜索</span><br/>
 						<span class="three4">
 							根据名称、ID、IP等属性，搜索出相关的云资源。<br/><br/>
 							支持的资源类型包括云服务器ECS、负载均衡SLB、<br/>专有网络VPC、云盘、快照、镜像、安全组、弹性网<br/>卡、弹性公网IP(EIP)、交换机及路由表。
 						</span>	
 					</div>	
-					<img  class="engineis" src="img/资源搜索图.png"/>
+					<img  class="engineis" src="../image/background2.png"/>
 				</div>
 				<!-- 资源实例数据及高频操作-->
 				<div class="first7">
 					<div class="four1">
-						<img  class="four2" src="img/资源实例.png"/>
+						<img  class="four2"src="../image/relalist.png"/>
 						<span class="four3">3. 资源实例数据及高频操作</span><br/>
 						<span class="four4">
 							对于高频关注的云资源实例，展示其关键属性<br/>（ID、地域、运行状态等）、监控数据（CPU、内<br/>存、云盘使用率等）。<br/><br/>
 							提供与实例相关的高频操作（远程连接、配置管理<br/>等），一键跳转到对应的云产品控制台。
 						</span>
 					</div>
-					<img class="resource-security" src="img/资源管理.png"/> 
+					<img class="resource-security"src="../image/background3.png"/> 
 				</div>
 				<div class="shousuo">
 					<button class="shousuoanniu">
@@ -175,18 +181,18 @@
 					</button>
 				</div>	
 				<div class="znzx">
-				<button class="zhinzaixian"><img class="znzxzt" src="img/智能在线主图.png"/></button>
+				<button class="zhinzaixian"><img class="znzxzt" src="../image/intelligent.png"/></button>
 				</div>
 				
 				<div class="znzx1">
-				<button class="zhinzaixian1"><img class="znzxzt1" src="img/反馈主图.png"/></button>
+				<button class="zhinzaixian1"><img class="znzxzt1" src="../image/retroacyion.png"/></button>
 				</div>
 				
 				
 				
 				<div id="gotop">
 				<div class="znzx2">
-					<button class="zhinzaixian2"><img class="znzxzt2" src="img/回到顶部.png"/></button>
+					<button class="zhinzaixian2"><img class="znzxzt2" src="../image/backtotop.png"/></button>
 				</div>
 				</div>
 				<script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
@@ -238,12 +244,13 @@
 		<!--运维管理页面 -->
 		<!-- 资源预警-->
 		<div id="yunwei" style="display:none;">
+			<hr  style="position:relative;top:-8px; color:#C0C6CC;"/>
 		<div class="ywglym">
 			<div class="react-grid-layout">
 				<div class="next-card">
 					<h3 class="zyyj">
 						<span class="fxwvvr">资源预警</span>
-						<img class="shijian" src="img/帮助文档.jpg"/>
+						<img class="shijian" src="../image/helpword.jpg"/>
 					</h3>
 					<div class="gailang">
 						<div class="five1">
@@ -267,14 +274,14 @@
 					</div>
 				</div>
 				<!-- 安全预警-->
-		<div class="anquan">
+		<div class="anquanyujing">
 			<h3 class="aqyj">安全预警</h3>
 			<div class="six1">
 			<div class="six4">
 				<a>
 			<div class="anquan1">
 			<span class="aqpf">安全评分</span>
-			<img  class="anquanpingfen" src="img/帮助文档.jpg"/>
+			<img  class="anquanpingfen"src="../image/helpword.jpg"/>
 			</div>
 				<span class="jiushiba">98</span>
 				<span class="yibai">/100</span>
@@ -294,21 +301,21 @@
 			</div>
 		</div>
 			<div class="top">
-				<img class="gth" src="img/感叹号.jpg"/>
+				<img class="gth" src="../image/exclamation.jpg"/>
 				<span class="ycp">云产品风险监测</span>
-				<img  class="bangzhu" src="img/帮助文档.jpg"/>
+				<img  class="bangzhu"src="../image/helpword.jpg"/>
 				<a href="#"><span class="qsq">去授权</span></a>
 			</div>
 			<div class="zjian">
-				<img class="zshu" src="img/感叹号.jpg"/>
+				<img class="zshu" src="../image/exclamation.jpg"/>
 				<span class="sslzs">SSL证书</span>
-				<img  class="wendang" src="img/帮助文档.jpg"/>
+				<img  class="wendang"src="../image/helpword.jpg"/>
 				<a href="#"><span class="qpz">去配置</span></a>
 			</div>
 			<div class="up">
-				<img class="gth" src="img/感叹号.jpg"/>
+				<img class="gth" src="../image/exclamation.jpg"/>
 				<span class="webrqjc">Web入侵检测</span>
-				<img  class="wendang" src="img/帮助文档.jpg"/>
+				<img  class="wendang"src="../image/helpword.jpg"/>
 				<a href="#"><span class="mfjc">免费检测</span></a>
 			</div>
 		</div>
@@ -339,39 +346,39 @@
 				</div>
 			</div>
 			<!-- 我的导航-->
-			<div class="wodedaohang">
+			<div class="wodedaohang1">
 				<h3>我的导航</h3>
 				<div>
-					<h4 class="zjfw" >最近访问</h4>
-					<div class="fwls">没有您的最近访问历史，为您展示了大家最常访问的控制台：</div>
+					<h4 class="zjfw1" >最近访问</h4>
+					<div class="fwls1">没有您的最近访问历史，为您展示了大家最常访问的控制台：</div>
 					<div class="nine1">
-						<a><span class="tag">云服务器ECS</span></a>
+						<a href="http://127.0.0.1:5032" class="yfwqesc"><span class="tag1">云服务器ECS</span></a>
 					</div>
 					<div class="nine2">
-						<a><span class="tag">域名</span></a>
+						<a><span class="tag1">域名</span></a>
 					</div>
 					<div class="nine3">
-						<a><span class="tag">云数据库RDS版</span></a>
+						<a><span class="tag1">云数据库RDS版</span></a>
 					</div> 
 					<div class="nine4">
-						<a><span class="tag">日志服务</span></a>
+						<a><span class="tag1">日志服务</span></a>
 					</div>
 					<div class="nine5"> 
-						<a><span class="tag">对象储存OSS</span></a>
+						<a><span class="tag1">对象储存OSS</span></a>
 					</div>
 					<div class="nine6">
-						<a><span class="tag">云安全中心（动态感知）</span></a>
+						<a><span class="tag1">云安全中心（动态感知）</span></a>
 					</div>
-					<h4>保有资源的云产品</h4><img class="bzwengdang" src="img/帮助文档.jpg"/>
-					<div class="empty">
+					<h4>保有资源的云产品</h4><img class="bzwengdang1" src="../image/helpword.jpg"/>
+					<div class="emptys1">
 						使用云产品后，将在此处展示最近常用的保有云产品
 					</div>
 					<h4>快捷入口</h4>
-					<div class="rkan">
+					<div class="rkan1">
 						您可以点击"添加快捷入口"按钮，通过搜索查找您想快速前往的页面，添加到此区域。
 					</div>
-					<div class="kjrk">
-						<img src="img/添加.jpg"/>
+					<div class="kjrk1">
+						<img src="../image/increase.jpg"/>
 						<span>添加快捷入口</span>
 					</div>	
 			</div>
@@ -430,7 +437,7 @@
 				</ul>
 				<div class="yellow">
 					<div class="third2">
-					<img src="img/黄色感叹号.jpg"/>
+					<img src="../image/yellowexclamation.jpg"/>
 					<p>RAM安全检查:</p>
 					</div>
 					<span class="jiacha">您有6条安全检查尚未完成</span>
@@ -470,7 +477,7 @@
 			<div class="zhiyuan">
 				<div class="b1">
 					<h3>资源概览</h3>
-					<img src="img/帮助文档.jpg"/>
+					<img src="../image/helpword.jpg"/>
 					<span class="cjzy">创建资源</span>
 				</div>
 				<div>
@@ -479,7 +486,7 @@
 					<div class="RAMjs">
 						<span class="juese">RAM角色</span>
 						<h2 class="one1">1</h2>
-						<img src="img/云.jpg"/>
+						<img src="../image/say.jpg"/>
 					</div>	
 						<div>
 							<span class="fk">对资源管理的功能反馈，请<a class="djzl">点击这里</a></span><span class="gswm">告诉我们</span>
@@ -495,22 +502,22 @@
 				</div>
 				<div class="b3">
 					<div class="b6">
-						<img class="zdycbfx" src="img/自定义成本分析.jpg"/>
+						<img class="zdycbfx" src="../image/custom.jpg"/>
 						<p class="b4">自定义成本分析</p>
 						<span class="b5">通过SQL自定义成本可视化看板</span>
 					</div>
 					<div class="b6">
-						<img  class="cbys" src="img/成本预算.jpg"/>
+						<img  class="cbys" src="../image/budget.jpg"/>
 						<p class="b7">创建成本预算</p>
 						<span class="b8">自定义成本监控支出</span>
 					</div>
 					<div class="b6">
-						<img  class="hqtx" src="img/获取提醒.jpg"/>
+						<img  class="hqtx" src="../image/reminder.jpg"/>
 						<p class="b9">获取提醒</p>
 						<span class="b10">设置费用预警</span>
 					</div>
 					<div claas="b6">
-						<img class="gyfx" src="img/根因分析.jpg"/>
+						<img class="gyfx" src="../image/cause.jpg"/>
 						<p class="b11">根因分析</p>
 						<span class="b12">分析异常支出根本原因</span>
 					</div>
@@ -559,21 +566,20 @@
 				</button>
 			</div>	
 			<div class="znzx">
-			<button class="zhinzaixian"><img class="znzxzt" src="img/智能在线主图.png"/></button>
+			<button class="zhinzaixian"><img class="znzxzt" src="../image/intelligent.png"/></button>
 			</div>
 			
 			<div class="znzx1">
-			<button class="zhinzaixian1"><img class="znzxzt1" src="img/反馈主图.png"/></button>
+			<button class="zhinzaixian1"><img class="znzxzt1" src="../image/retroacyion.png"/></button>
 			</div>
 			
 			
 			
 			<div id="gotop">
-				<div class="znzx2">
-					<button class="zhinzaixian2"><img class="znzxzt2" src="img/回到顶部.png"/></button>
-				</div>
+			<div class="znzx2">
+				<button class="zhinzaixian2"><img class="znzxzt2" src="../image/backtotop.png"/></button>
 			</div>
-			
+			</div>
 			<script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
 			<script>
 			$(function(){
@@ -617,7 +623,8 @@
 		</div>
 		<!-- 产品与服务页面-->
 		
-		<div id="yunwei" style="display:none;">
+		<div id="changpingyemian" style="display:none;">
+			<hr  style="position:relative;top:-8px; color:#C0C6CC;"/>
 			<div class="cpyfwym">
 				<div class="changpingye">
 					<!-- 我的导航-->
@@ -644,7 +651,7 @@
 							<div class="nine6">
 								<a><span class="tag">云安全中心（动态感知）</span></a>
 							</div>
-							<h4>保有资源的云产品</h4><img class="bzwengdang" src="img/帮助文档.jpg"/>
+							<h4>保有资源的云产品</h4><img class="bzwengdang" src="../image/帮助文档.jpg"/>
 							<div class="empty">
 								使用云产品后，将在此处展示最近常用的保有云产品
 							</div>
@@ -653,7 +660,7 @@
 								您可以点击"添加快捷入口"按钮，通过搜索查找您想快速前往的页面，添加到此区域。
 							</div>
 							<div class="kjrk">
-								<img src="img/添加.jpg"/>
+								<img src="../image/添加.jpg"/>
 								<span>添加快捷入口</span>
 							</div>	
 					</div>
@@ -668,7 +675,7 @@
 								随时随地获取云计算行业动态及最新资讯，与业内大牛面对面。
 							</div>
 							<a class="zxxx">最近更新：消息增加自定义订阅能力，重要消息不再错过</a>
-							<img src="img/APP二维码.jpg"/>
+							<img src="../image/APP二维码.jpg"/>
 						
 						</div>
 					</div>
@@ -733,30 +740,30 @@
 							</div>
 							<div class="widgethome">
 								<div class="sscpyfw">搜索产品与服务</div>
-								<span id="img"><img src="img/放大镜.jpg"/></span>
-								<input type="text" name="" value="" class="input" aria-haspopup="true" aria-expanded="false" placeholder="搜索产品或服务的名称或关键字" >
+								<span id="img"><img src="../image/magnifier.jpg"/></span>
+								<input type="text" name="" value="" class="input" aria-haspopup="true" aria-expanded="false"placeholder="搜索产品或服务的名称或关键字" >
 								<div class="cpyfwlb">
 									<div class="changpingyu">
-									<p>产品与服务列表</p> <img src="img/箭头.jpg"/>
+									<p>产品与服务列表</p> <img src="../image/箭头.jpg"/>
 									</div>
 								</div>
 								<div class="zuihou">
 									<div class="hyh" >
-										<span class="wntj">为你推荐</span><a class="huan"><img class="huanyihuan" src="img/换一换.jpg"/>换一换</a>
+										<span class="wntj">为你推荐</span><a class="huan"><img class="huanyihuan" src="../image/换一换.jpg"/>换一换</a>
 									</div>
 								<div class="f4">
 									<a class="f1">
-										<div class="f2"><img src="img/云服务技术.jpg"/></div>
+										<div class="f2"><img src="../image/云服务技术.jpg"/></div>
 										<span class="f3">云服务器 ECS
 										<p class="f5">弹性可伸缩的计算服务</p></span>
 									</a>
 									<a class="shangbiao">
-										<div class="f2"><img src="img/云服务技术.jpg"/></div>
+										<div class="f2"><img src="../image/云服务技术.jpg"/></div>
 										<span class="sbfw">商标服务
 										<p class="she">审核后1分钟递交，OCR智能识别证件技术</p></span>
 									</a>
 									<a class="guangxi">
-										<div class="f2"><img src="img/云服务技术.jpg"/></div>
+										<div class="f2"><img src="../image/云服务技术.jpg"/></div>
 										<span class="gxsjk">关系型数据库
 										<p class="aqdj">高安全等级，高稳定，比开源版本性...</p> </span>
 									</a>
@@ -768,21 +775,21 @@
 									<div class="end5">
 										<a class="h1">
 											<div class="hygj">
-												<img  class="xygj" src="img/行云管家Cloudbility云管解决方案.png"/>
+												<img  class="xygj" src="../image/行云管家Cloudbility云管解决方案.png"/>
 											</div>	
 											<div class="ygjjfa"><span class="ywlx">行云管家Cloudbility云管解决方案</span></div>
 											<div class="smzq"><p class="glpt">开箱即用的云计算资源全生命周期管理平台</p></div>
 										</a>
 										<a class="h1">
 											<div class="hygj">
-												<img class="xygj"src="img/云星费用管家.png"/>
+												<img class="xygj"src="../image/云星费用管家.png"/>
 											</div>	
 											<div class="ygjjfa"><span class="ywlx">云星费用管家</span></div>
 											<div class="smzq"><p class="glpt">优化您的云费用并控制成本</p></div>
 										</a>
 										<a class="h1">
 											<div class="hygj">
-												<img class="xygj" src="img/万博云迁移（整机迁移）.png"/>
+												<img class="xygj" src="../image/万博云迁移（整机迁移）.png"/>
 											</div>	
 											<div class="ygjjfa"><span class="ywlx">万博云迁移（整机迁移）</span></div>
 											<div class="smzq"><p class="glpt">业务连续不中断、无损无影响在...</p></div>
@@ -853,10 +860,10 @@
 								</div>
 								<div class="dji">
 									<div class="dianji">
-										<button class="shangyiye"><img src="img/上一页.jpg"/></button>
+										<button class="shangyiye"><img src="../image/上一页.jpg"/></button>
 										<button class="yiye"><span class="yye1">1</span></button>
 										<button class="erye"><span class="erye2">2</span></button>
-										<button class="shangyiye"><img src="img/下一页.png"/></button>
+										<button class="shangyiye"><img src="../image/下一页.png"/></button>
 									</div>
 									
 								</div>
@@ -872,12 +879,12 @@
 								<p class="jlzg">奖励最高 66.6% （100云气 = 1元）</p>
 								<ul>
 								<li class="g2">
-									<img src="img/0成本.png"/>
+									<img src="../image/0成本.png"/>
 									<div class="g3">0 成本高回报</div>
 									<div class="g4">推荐好友即得奖励，享现金、代金券、</br>专属内测等权益</div>
 								</li>
 								<li class="g7">
-									<img src="img/50万步道者同行.png"/>
+									<img src="../image/50万步道者同行.png"/>
 									<div class="g5">与 50 万布道者同行</div>
 									<div class="g6">参加云计算推广获专属身份，帮助千万中小企业上云</div>
 								</li>
@@ -953,18 +960,18 @@
 							</button>
 						</div>	
 						<div class="znzx">
-						<button class="zhinzaixian"><img class="znzxzt" src="img/智能在线主图.png"/></button>
+						<button class="zhinzaixian"><img class="znzxzt" src="../image/智能在线主图.png"/></button>
 						</div>
 						
 						<div class="znzx1">
-						<button class="zhinzaixian1"><img class="znzxzt1" src="img/反馈主图.png"/></button>
+						<button class="zhinzaixian1"><img class="znzxzt1" src="../image/反馈主图.png"/></button>
 						</div>
 						
 						
 						
 						<div id="gotop">
 						<div class="znzx2">
-							<button class="zhinzaixian2"><img class="znzxzt2" src="img/回到顶部.png"/></button>
+							<button class="zhinzaixian2"><img class="znzxzt2" src="../image/回到顶部.png"/></button>
 						</div>
 						</div>
 						<script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
@@ -982,7 +989,7 @@
 						    $(window).scroll(function(){ 
 						        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; 
 						
-						        if(scrollt >200 ){  
+						        if( scrollt >200 ){  
 						
 						            $("#gotop").fadeIn(400);
 						
@@ -1038,7 +1045,8 @@
 							</div>
 						</div>	
 					<!--安全中心页面 -->	
-					<div id="anquanzx" style="display:none;">
+					<div id="anquan" style="display:none;">
+						<hr  style="position:relative;top:-8px; color:#C0C6CC;"/>
 					<div class="anquanzx">
 						<div class="aqzxym">
 							<!-- 安全中心头部-->
@@ -1072,7 +1080,7 @@
 								</div>
 								<div class="aqpfnr">
 									<div class="aqpfhmnr">
-										<img class="jaince" src="img/检测图.png"/>
+										<img class="jaince"src="../image/检测图.png"/>
 											<div class="gju">根据<span class="mfb">免费版</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;威胁检测能力评估</div>
 										<div class="aqpfybnr">
 											<div class="fxjtfx">
@@ -1093,24 +1101,24 @@
 									</div>
 									<div class="aqgyuhm">
 										<div class="sikuai">
-											<img class="bdu"src="img/病毒.png"/><span class="fybds">防御病毒数</span>
+											<img class="bdu"src="../image/病毒.png"/><span class="fybds">防御病毒数</span>
 											<div class="hezhi"><a class="gang">-</a></div>
 											<div class="jinshiwutian">近15天<span class="jailing">+0</span></div>
 										</div>
 											<div class="sikuai2">
-												<img class="bdu1" src="img/病毒.png"/><span class="fybds2">网页防篡改</span>
+												<img class="bdu1"src="../image/病毒.png"/><span class="fybds2">网页防篡改</span>
 												<div class="hezhi1"><a class="gang2">-</a></div>
 												<a class="kqfy">开启防御</a>
 											</div>
 								
 											<div class="sikuai3">
-												<img class="bdu2"src="img/病毒.png"/><span class="fybds3">AccessKey泄露检测</span>
-												<a class="ling">0<span class="dtu"><img class="dongtu"src="img/动图.gif"/><span class="shisjc">实时检测中</span></span></a>
+												<img class="bdu2"src="../image/病毒.png"/><span class="fybds3">AccessKey泄露检测</span>
+												<a class="ling">0<span class="dtu"><img class="dongtu"src="../image/动图.gif"/><span class="shisjc">实时检测中</span></span></a>
 												<div class="jinshiwutian2">近15天<span class="jailing2">+0</span></div>
 											</div>
 										
 											<div class="sikuai4">
-												<img class="bdu3"src="img/病毒.png"/><span class="fybds4">历史已修复漏洞</span>
+												<img class="bdu3"src="../image/病毒.png"/><span class="fybds4">历史已修复漏洞</span>
 												<div class="hezhi2"><a class="gang">-</a></div>
 												<div>-</div>
 												</div>
@@ -1120,8 +1128,8 @@
 													<span class="kaiqi">已开启安全能力</span>
 												
 												<p class="i10">
-													<img src="img/图.png" style="position: absolute;top:252px;left:25px;"/>
-													<img class="i1" src="img/升级.png"/>
+													<img src="../image/图.png" style="position: absolute;top:252px;left:25px;"/>
+													<img class="i1" src="../image/升级.png"/>
 												</p>
 												<p class="bdk">病毒库更新版本2021年12月27日 17:17:20</p>
 												<p class="xt">系统漏洞扫描时间: 2021年12月27日 17:17:20</p>
@@ -1159,7 +1167,7 @@
 											<a class="chakang">查看版本对比</a>
 										</div>
 										<div class="header">
-											<span class="hysy"><img class="huangying" src="img/欢迎使用.png"/>欢迎使用云安全中心</span>
+											<span class="hysy"><img class="huangying" src="../image/欢迎使用.png"/>欢迎使用云安全中心</span>
 											<span class="mfsy">阿里云为您提供7天免费试用服务 </span>
 											<div>
 												<a class="ljishiyong"><button class="shiy"><span class="shiyong">立即试用</span></button></a>
@@ -1186,7 +1194,7 @@
 									<div class="djbh">
 										
 											<div class="jianchead" id="btn5">
-												<a class="head1 ">等级保护合规免费检查</a>
+												<a class="head1 " tabindex="2">等级保护合规免费检查</a>
 											</div>
 											<div class="head6" style="display:;"id="btn8">
 											<div class="line3"></div>
@@ -1194,20 +1202,20 @@
 													云安全中心已支持等级保护 2.0 基线检查能力，为您提供免费的检查能力
 												</div>
 											<a class="anniu"><span class="ljimfjc">立即免费检查</span></a>
-											<img class="djibaohu" src="img/检查1.png"/>
+											<img class="djibaohu" src="../image/检查1.png"/>
 											</div>
 											<div class="jianchead" id="btn6">
-												<a class="head2">网站安全扫描	</a>									
+												<a class="head2" tabindex="2">网站安全扫描	</a>									
 											</div>
 											<div class="jianchead" id="btn7">
-												<a class="head3">安全组风险检查</a>
+												<a class="head3" tabindex="2">安全组风险检查</a>
 											</div>
 											<div class="head4"id="an1" style="display: none;">
 											<div class="desc3">
 													一键检查您的网站可能存在的漏洞、配置安全风险
 												</div>
 											<a class="anniu"><span class="ljimfjc">立即免费检查</span></a>
-											<img class="djibaohu" src="img/检查1.png"/>
+											<img class="djibaohu" src="../image/检查1.png"/>
 											</div>
 											
 										    <div class="head5"id="an2"style="display: none;">
@@ -1215,7 +1223,7 @@
 													攻击者可能利用安全组漏洞入侵服务器，一键检查安全组配置的潜在风险
 												</div>
 											<a class="anniu"><span class="ljimfjc">立即免费检查</span></a>
-											<img class="djibaohu" src="img/检查1.png"/>
+											<img class="djibaohu" src="../image/检查1.png"/>
 											
 											
 										</div>
@@ -1335,7 +1343,7 @@
 											<div class="weibu3"><span class="ycljx">0</span>已处理基线</div>
 										</div>
 									</div>
-									<img class="zxtu" src="./img/折线图.png"/>
+									<img class="zxtu" src="../image/折线图.png"/>
 								
 									
 								</div>
@@ -1353,18 +1361,18 @@
 								</button>
 							</div>	
 							<div class="znzx">
-							<button class="zhinzaixian"><img class="znzxzt" src="img/智能在线主图.png"/></button>
+							<button class="zhinzaixian"><img class="znzxzt" src="../image/智能在线主图.png"/></button>
 							</div>
 							
 							<div class="znzx1">
-							<button class="zhinzaixian1"><img class="znzxzt1" src="img/反馈主图.png"/></button>
+							<button class="zhinzaixian1"><img class="znzxzt1" src="../image/反馈主图.png"/></button>
 							</div>
 							
 							
 							
 							<div id="gotop">
 							<div class="znzx2">
-								<button class="zhinzaixian2"><img class="znzxzt2" src="img/回到顶部.png"/></button>
+								<button class="zhinzaixian2"><img class="znzxzt2" src="../image/回到顶部.png"/></button>
 							</div>
 							</div>
 							<script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.min.js"></script>
@@ -1438,7 +1446,32 @@
 					
 					</script>
 			
-					
+				<script>
+				document.getElementById("zhiyuanguanli").onclick=function(){
+					document.getElementById("yunwei").style.display="none";
+					document.getElementById("anquan").style.display="none";
+					document.getElementById("changpingyemian").style.display="none";
+					document.getElementById("switch-body").style.display="block";
+				}
+				document.getElementById("yunweiguanli").onclick=function(){
+					document.getElementById("anquan").style.display="none";
+					document.getElementById("changpingyemian").style.display="none";
+					document.getElementById("switch-body").style.display="none";
+					document.getElementById("yunwei").style.display="block";
+				}
+				document.getElementById("changpingyufuwu").onclick=function(){
+				
+					document.getElementById("switch-body").style.display="none";
+					document.getElementById("anquan").style.display="none";
+					document.getElementById("yunwei").style.display="none";
+					document.getElementById("changpingyemian").style.display="block";
+				}
+				document.getElementById("anquanzhongxing").onclick=function(){
+					document.getElementById("yunwei").style.display="none";
+					document.getElementById("switch-body").style.display="none";
+					document.getElementById("changpingyemian").style.display="none";
+					document.getElementById("anquan").style.display="block";
+				}</script>	
 					
 					
 				
