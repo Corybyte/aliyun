@@ -1,0 +1,13 @@
+.content1-span1:hover{
+	border-bottom: 2px solid #0070cc;
+}
+
+.content2-span1:hover{
+	border-bottom: 2px solid #0070cc;
+	cursor: pointer;
+}
+
+.content3-span1:hover{
+	border-bottom: 2px solid #0070cc;
+	cursor: pointer;
+}
