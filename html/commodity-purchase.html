@@ -279,7 +279,7 @@
 					
 					
 					<div id="content3-span4" style="position: absolute;border: 1px solid darkgray;width: 240px;height: 140px;left: 960px;top: 30px;">
-						<div style="position: absolute;width: 240px;border-bottom: 1px solid darkgray;height: 35px;">
+						<div id="content3-span4-span1"  style="position: absolute;width: 240px;border-bottom: 1px solid darkgray;height: 35px;">
 							<span style="position: absolute;left: 30px;font-size: 10px;top: 10px;">1&nbsp;vCPU&nbsp;1&nbsp;GiB(突发性能实例t5)</span>
 							<ul style="position: absolute;top:30px;width: 100px;">
 								<li style="font-size: 10px;"><span style="font-size: 10px;">适用于数据分析</span></li>
@@ -292,14 +292,13 @@
 					
 					<span style="font-size: 10px;color: darkgray;position: absolute;left: 200px;top: 180px;">突发性能实例 t5 不适用于 长时间超过性能“基线”或企业稳定计算性能需求场景。<br>
 					一键购买仅支持对于新一代 突发性能实例 t5 规格族的售卖，如果想要选购更多配置，请选择自定义购买。</span>
-					
-					
-					
-					
-					
-					
-					
+
+				</div>
 				
+				
+				
+				<div style="position: absolute;border: 1px solid red;width: 1700px;height: 150px;top: 500px;left: 100px;">
+					<span style="position: absolute;">镜像</span>
 					
 				</div>
 							
@@ -396,11 +395,22 @@
 			document.getElementById("content3-span1-span1").style.backgroundColor="#D9EAF7";
 			
 			
+
+			
+
+		}
+		
+		
+		document.getElementById("content3-span1").onclick=function(){
+			document.getElementById("content3-span1").style.border="1px solid #0070cc";
+			document.getElementById("content3-span1-span1").style.borderBottom="1px solid #0070cc";
+			document.getElementById("content3-span1-span1").style.backgroundColor="#D9EAF7";
+			
+			
 			document.getElementById("content3-span2").style.border="1px solid darkgray";
 			document.getElementById("content3-span2-span1").style.borderBottom="1px solid darkgray";
 			document.getElementById("content3-span2-span1").style.backgroundColor="";
-			
-
+		
 		}
 		
 		
@@ -408,14 +418,68 @@
 			document.getElementById("content3-span2").style.border="1px solid #0070cc";
 			document.getElementById("content3-span2-span1").style.borderBottom="1px solid #0070cc";
 			document.getElementById("content3-span2-span1").style.backgroundColor="#D9EAF7";
-			
-			
-			document.getElementById("content3-span1-span1").style.borderBottom="";
-			document.getElementById("content3-span1-span1").style.backgroundColor="";
+		}
+		
+		
+		document.getElementById("content3-span2").onmouseout=function(){
+			document.getElementById("content3-span2").style.border="1px solid darkgray";
+			document.getElementById("content3-span2-span1").style.borderBottom="1px solid darkgray";
+			document.getElementById("content3-span2-span1").style.backgroundColor="";
+		}
+		
+		
+		
+		
+		
+		document.getElementById("content3-span2").onclick=function(){
 			document.getElementById("content3-span1").style.border="1px solid darkgray";
+			document.getElementById("content3-span1-span1").style.borderBottom="1px solid darkgray";
+			document.getElementById("content3-span1-span1").style.backgroundColor="";
 			
+			
+			document.getElementById("content3-span2").style.border="1px solid #0070cc";
+			document.getElementById("content3-span2-span1").style.borderBottom="1px solid#0070cc";
+			document.getElementById("content3-span2-span1").style.backgroundColor="#D9EAF7";
 		
 		}
+		
+		
+		
+		
+		document.getElementById("content3-span3").onmouseover=function(){
+			document.getElementById("content3-span3").style.border="1px solid #0070cc";
+			document.getElementById("content3-span3-span1").style.borderBottom="1px solid #0070cc";
+			document.getElementById("content3-span3-span1").style.backgroundColor="#D9EAF7";
+		}
+		
+		
+		document.getElementById("content3-span3").onmouseout=function(){
+			document.getElementById("content3-span3").style.border="1px solid darkgray";
+			document.getElementById("content3-span3-span1").style.borderBottom="1px solid darkgray";
+			document.getElementById("content3-span3-span1").style.backgroundColor="";
+		}
+		
+		
+		
+		
+		
+		document.getElementById("content3-span4").onmouseover=function(){
+			document.getElementById("content3-span4").style.border="1px solid #0070cc";
+			document.getElementById("content3-span4-span1").style.borderBottom="1px solid #0070cc";
+			document.getElementById("content3-span4-span1").style.backgroundColor="#D9EAF7";
+			
+		}
+		
+		
+		
+		document.getElementById("content3-span4").onmouseout=function(){
+			document.getElementById("content3-span4").style.border="1px solid darkgray";
+			document.getElementById("content3-span4-span1").style.borderBottom="1px solid darkgray";
+			document.getElementById("content3-span4-span1").style.backgroundColor="";
+		}
+		
+		
+		
 		
 		
 		
