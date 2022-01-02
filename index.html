@@ -94,7 +94,7 @@
 							<div style="display: none;"  id="top-nav-span2-list-right-text">
 								<span style="position: absolute;color: #ff6a00;font-weight: bold;top: 80px;left: 40px;">热门推荐</span>
 								
-								<span style="position: absolute;top: 120px;left: 40px;">云服务器ECS</span>
+								<span id="ecs" style="position: absolute;top: 120px;left: 40px;">云服务器ECS</span>
 								<span style="position: absolute;top: 160px;left: 40px;">域名注册</span>
 								<span style="position: absolute;top: 200px;left: 40px;">对象存储OSS</span>
 								<span style="position: absolute;top: 240px;left: 40px;">轻量应用服务器</span>
@@ -1407,6 +1407,16 @@
 		//跳转控制台
 		document.getElementById("zxhd").onclick = function() {
 			window.location = "html/shopping Cart.html";
+		}
+		
+		
+		document.getElementById("ecs").onclick = function() {
+			window.location = "html/commodity-purchase.html";
+		}
+		
+		
+		document.getElementById("ecs").onmouseover=function(){
+			document.getElementById("ecs").style.color="#FF791A";
 		}
 		
 		

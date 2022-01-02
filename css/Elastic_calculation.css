@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 975px;
+}
+
+.Content_part{
+	height: 649px;
+	background-color: #F5F5F6;
+	margin: 0 auto;
+	margin-top: -25px;
+}
+
+.Top-Box{
+	width: 1610px;
+	height: 26px;
+	margin: 30px auto;
+	display: flex;
+	position: relative;
+	top: 10px;
+}
+
+.One_Box{
+	width: 760px;
+}
+
+.Circular_1{
+	width: 24px;
+	height: 24px;
+	font-size: 12px;
+	background-color: #0070CC;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.Confirm-order{
+	width: 55px;
+	height: 22px;
+	font-size: 12px;
+	padding-top: 2px;
+	position: relative;
+	bottom: 24px;
+	left: 30px;
+}
+
+.Grey_line{
+	border: 1px solid #E5E5E5;
+	width: 650px;
+	background-color: #E5E5E5;
+	position: relative;
+	left: 95px;
+	bottom: 38px;
+}
+
+.Two_Box{
+	width: 760px;
+}
+
+.Circular_2{
+	width: 24px;
+	height: 24px;
+	font-size: 12px;
+	background-color: #BCBCBC;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.Confirm-order_2{
+	width: 55px;
+	height: 22px;
+	font-size: 12px;
+	padding-top: 2px;
+	text-align: center;
+	position: relative;
+	bottom: 24px;
+	left: 30px;
+}
+
+.Grey_line_2{
+	border: 1px solid #E5E5E5;
+	width: 650px;
+	background-color: #E5E5E5;
+	position: relative;
+	left: 95px;
+	bottom: 38px;
+}
+
+.Three_Box{
+	width: 86px;
+}
+
+.Circular_3{
+	width: 24px;
+	height: 24px;
+	font-size: 12px;
+	background-color: #BCBCBC;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.Confirm-order_3{
+	width: 55px;
+	height: 22px;
+	font-size: 12px;
+	padding-top: 2px;
+	text-align: center;
+	position: relative;
+	bottom: 24px;
+	left: 30px;
+}
+
+.Middle_part{
+	width: 1610px;
+	height: 355px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding: 0px 25px;
+}
+
+.Middle_part:hover{
+	box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+}
+.Parameter_configuration{
+	width: 1555px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 15px;
+	border-bottom: 1px dashed #ebecec;
+}
+
+.part{
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: 40% 20% 20% 20%;
+	border: 1px solid #d7d8d9;
+	box-sizing: border-box;
+}
+
+.Configuration_details{
+	padding-left: 20px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #373d41;
+	font-family: "Helvetica Neue For Number",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	background-color: #f5f5f6;
+	border-bottom: 1px solid #d7d8d9;
+}
+
+.Payment_Method{
+	padding-left: 20px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #373d41;
+	font-family: "Helvetica Neue For Number",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	background-color: #f5f5f6;
+	border-bottom: 1px solid #d7d8d9;
+}
+
+.Quantity{
+	padding-left: 20px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #373d41;
+	font-family: "Helvetica Neue For Number",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	background-color: #f5f5f6;
+	border-bottom: 1px solid #d7d8d9;
+}
+
+.Duration{
+	padding-left: 20px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #373d41;
+	font-family: "Helvetica Neue For Number",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	background-color: #f5f5f6;
+	border-bottom: 1px solid #d7d8d9;
+}
+
+.grid-content{
+	padding: 20px;
+	font-size: 12px;
+	color: #373d41;
+}
+
+.ng-star-inserted{
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.Bottom_content{
+	width: 1610px;
+	height: 125px;
+	padding: 20px 30px;
+	margin: 10px auto;
+	background-color: #FFFFFF;
+}
+
+.Bottom_content:hover{
+	box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+}
+
+.Service_agreement{
+	float: left;
+	width: 112px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Helvetica Neue For Number",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	box-sizing: border-box;
+	font-weight: 450;
+}
+
+.Right_content{
+	width: 100%;
+	padding-left: 170px;
+	font-size: 12px;
+}
+.ant-checkbox-input{
+	width: 16px;
+	height: 16px;
+}
+
+.Terms-of-service{
+	color: #0070cc;
+	text-decoration: none;
+	position: relative;
+	bottom: 4px;
+}
+
+.Terms-of-service:hover{
+	text-decoration: underline;
+}
+
+.Lower{
+	color: #666;
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+.Lower-content{
+	color: #666;
+}
+
+.Lower-content a{
+	color: #0070cc;
+	text-decoration: none;
+}
+
+.Lower-content a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

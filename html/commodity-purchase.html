@@ -577,7 +577,7 @@
 					<span style="position: absolute;color: #ff8a00;right: 380px;top: 27px;">￥</span>
 					<span id="price" style="position: absolute;color: #ff8a00;right: 280px;top: 15px;font-size: 30px;">57.50</span>
 					<div style="position: absolute;width: 130px;height: 40px;background-color: #ff8a00;right: 140px;top: 20px;">
-						<span style="position: absolute;color: white;left: 28px;top: 10px;font-size: 15px;">确认订单</span>
+						<span id="submit1" style="position: absolute;color: white;left: 28px;top: 10px;font-size: 15px;">确认订单</span>
 						
 					</div>
 					
@@ -1238,6 +1238,10 @@
 		                "overflow-x": "hidden",
 		   });
 		   
+		   
+		   document.getElementById("submit1").onclick=function(){
+				window.location = "Elastic_calculation.html";
+		   }
 		   
 		   
 	
