@@ -10,4 +10,10 @@
 .content3-span1:hover{
 	border-bottom: 2px solid #0070cc;
 	cursor: pointer;
+
+
+}
+
+.centos-box div:hover .centos-box div{
+	background-color: red;
 }
