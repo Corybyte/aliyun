@@ -62,10 +62,10 @@
 															 <div class="loin-next-password">
 																 <div class="fm-field">
 																	 <div class="fisrt-input">
-																		 <input type="text" name="邮箱/会员名/8位ID" placeholder="邮箱/会员名/8位ID" />
+																		 <input id="username" type="text" name="邮箱/会员名/8位ID" placeholder="邮箱/会员名/8位ID" />
 																	 </div>
 																	 <div class="second-input">
-																		 <input type="password" name="请输入登录密码" placeholder="请输入登录密码" />
+																		 <input id="password"  type="password" name="请输入登录密码" placeholder="请输入登录密码" />
 																	 </div>
 																	 <div class="register-button">
 																		 <button id="login" type="submit" tabindex="3" class="fm-button fm-submit password-login">登录</button>
@@ -200,7 +200,13 @@
 						}
 						//跳转控制台
 						document.getElementById("login").onclick = function() {
-							window.location = "aliyun/user.html";
+							if(document.getElementById("username").value=="admin"&&document.getElementById("password").value=="admin"){
+								window.location = "aliyun/user.html";
+	
+							}else{
+								alert("账户或密码错误");
+							}
+							
 						}
 						
 					</script>

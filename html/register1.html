@@ -40,7 +40,7 @@
 							<div class="aliyun-account-console"><img src="../image/屏幕截图%202021-12-12%20225324.png"></div>
 							<div class="middle-nav-left-text">扫码注册</div>	
 							</div>
-							<div class="middle-nav-right" id="Account_password_login">
+							<div  class="middle-nav-right" id="Account_password_login">
 								<div class="aliyun-account-consoleico"><img src="../image/屏幕截图%202021-12-12%20230727.png"></div>
 								<div id="test" class="middle-nav-right-text">账号密码注册</div>
 								<div class="hiddle">
@@ -62,13 +62,13 @@
 															 <div class="loin-next-password">
 																 <div class="fm-field">
 																	 <div class="fisrt-input">
-																		 <input type="text" name="邮箱/会员名/8位ID" placeholder="邮箱/会员名/8位ID" />
+																		 <input id="username" type="text" name="邮箱/会员名/8位ID" placeholder="邮箱/会员名/8位ID" />
 																	 </div>
 																	 <div class="second-input">
-																		 <input type="password" name="请输入登录密码" placeholder="请输入登录密码" />
+																		 <input id="userpassword" type="password" name="请输入登录密码" placeholder="请输入登录密码" />
 																	 </div>
 																	 <div class="register-button">
-																		 <button id="login" type="submit" tabindex="3" class="fm-button fm-submit password-login">登录</button>
+																		 <button id="login" type="submit" tabindex="3" class="fm-button fm-submit password-login" onclick="login()">登录</button>
 																	 </div>
 																	 <div class="login-link">
 																		 <a href="https://passport.aliyun.com/ac/password_find.htm?lang=zh_CN&appName=aliyun&fromSite=6&call_back_url=##returnUrl##" >忘记密码</a>
@@ -188,8 +188,21 @@
 							document.getElementById("Password_login").style.display="none";
 						}
 						
-						document.getElementById("login").onclick=function(){
+						document.getElementById("Account_password_login").onclick=function(){
+							
 							window.location = "register.html";
+						
+							
+							
+							
+							
+							
+							
+						
 						}
+						
+				
+						
+						
 					</script>
 				</html>

@@ -46,17 +46,17 @@
 						</div>
 			<div class="Form">
 				<div class="form">
+					<span id="username-text" style="color: red;position: absolute;top: 325px;font-size: 12px;left: 805px;">会员名中文为5-25个字符，英文5-50个字符</span>
 					<form action="" method="post">
-						<input id="username" type="text" name="textUserName" placeholder="请设置账号名称"/>
-								
+						<input id="username" type="text" name="textUserName" placeholder="请设置账号名称" />
 						<br/>
-						<input type="password" name="password" placeholder="请设置登录密码"/>
+						<input id="password" type="password" name="password" placeholder="请设置登录密码"/>
 						<br/>
-						<input type="password" name="password_1" placeholder="请再次输入登录密码"/>
+						<input id="password1" type="password" name="password_1" placeholder="请再次输入登录密码"/>
 						<br/>
 			</div>
 				<div class="eighty-six"><span>+86</span></div> 
-					<input type="text"  class="number" name="text" placeholder="请输入手机号码"/>
+					<input id="phonenummber" type="text"  class="number" name="text" placeholder="请输入手机号码"/>
 						</form>
 				<div>
 					<div id="login" class="Registration">
@@ -130,11 +130,48 @@
 		</div>
 		<script>
 			document.getElementById("username").onclick=function(){
+				
+				
 				document.getElementById("Tips").style.display="block";
 			}
 			document.getElementById("login").onclick=function(){
-				window.location = "aliyun/user.html";
+				
+				if(document.getElementById("password").value==document.getElementById("password1").value){
+					
+					if(document.getElementById("phonenummber").value.length==11){
+						window.location = "aliyun/user.html";
+						
+					}
+					
+					
+				}else{
+					alert("密码不相同");
+					
+				}
+				
+				
+				
 			}
+			
+			
+			
+			function login(){
+				
+					if(document.getElementById("username").value.length<5){
+						document.getElementById("username-text").style.display="block";
+						
+					}
+					
+					if(document.getElementById("username").value.length>5){
+						document.getElementById("username-text").style.display="none";
+					}
+					
+			}
+			
+		
+			
+			setInterval("login()","1");
+			
 		</script>
 	</body>
 </html>
